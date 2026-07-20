@@ -4,7 +4,7 @@ A collaborative agent-based wiki and library for learning computational modellin
 
 ## Project structure
 ### The wiki
-See the wiki here. The wiki is based on Andrej Karpathy's idea of an agentic wiki, built with [Quartz](https://quartz.jzhao.xyz/) and published to GitHub Pages. Alternatively, simply clone the repo and open the `wiki/` folder in your markdown editor of choice (ie. Obsidian or Visual Studio Code) for consumption and/or contribution — Quartz reads a plain Obsidian-style vault, including `[[wikilinks]]`.
+See the wiki [here](https://bronsonhill.github.io/cmas/). The wiki is based on Andrej Karpathy's idea of an agentic wiki, built with [Quartz](https://quartz.jzhao.xyz/) and published to GitHub Pages. Alternatively, simply clone the repo and open the `content/` folder in your markdown editor of choice (ie. Obsidian or Visual Studio Code) for consumption and/or contribution — Quartz reads a plain Obsidian-style vault, including `[[wikilinks]]`.
 
 ```
 wiki/
