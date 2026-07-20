@@ -32,3 +32,9 @@ tsconfig.tsbuildinfo
 
 # macOS
 .DS_Store
+
+# Personal SRS review state — see RULES.md "Spaced repetition" section.
+# The Anki export is regenerated on demand and never shared; per-card
+# `<!--SR:...-->` scheduling comments from the Obsidian SR plugin are a
+# review-progress diff, not content — don't let them land in tracked decks.
+*.anki.tsv
