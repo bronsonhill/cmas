@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "CMAS Wiki",
+    pageTitle: "Computational Modelling and Simulation Wiki",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
