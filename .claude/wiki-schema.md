@@ -1,7 +1,13 @@
 ---
 title: Content Schema
-version: 0.1
-domain: CMAS (Computational Modelling and Simulation) wiki
+version: 0.2
+subject: Computational Modelling and Simulation
+wiki_root: wiki
+source_policy: link-only
+derived_dir: materials
+index_style: per-section
+domains: []
+git_workflow: pr
 ---
 
 # Content Schema
@@ -9,6 +15,12 @@ domain: CMAS (Computational Modelling and Simulation) wiki
 Defines structure, conventions, and workflows for the `wiki/` wiki in this repo
 (the Karpathy agentic-wiki pattern, adapted for a single-subject, multi-contributor,
 public repo). All content-editing skills must follow this.
+
+The skills themselves live in the [wiki-skills](https://github.com/bronsonhill/wiki-skills)
+plugin, which is shared with other wikis and holds no repo-specific paths. The
+frontmatter above is the machine-readable configuration those skills read — in
+particular `source_policy: link-only`, which is what enforces the copyright constraint
+below, and `git_workflow: pr`, which routes ingests through pull requests.
 
 ## Directory structure
 
@@ -47,12 +59,12 @@ an original summary written in your own words.
 - **Images:** only original diagrams you create, or images you have rights to use —
   never scrape copyrighted course slides. Store under `wiki/materials/assets/`.
 
-No `domain` field — this wiki covers one subject (CMAS), so section (`sources` /
-`entities` / `concepts` / `materials`) is enough to scope content. (The upstream
-personal-wiki version of this schema used a multi-subject `domain` field; it's
-deliberately dropped here.)
+No `domain` field — this wiki covers one subject, so section (`sources` / `entities` /
+`concepts` / `materials`) is enough to scope content. That is what the empty `domains`
+list in the frontmatter declares; the plugin's domain checks stay off as a result.
+Multi-subject wikis sharing these skills set `domains` and require the field.
 
-## Workflows (via `.claude/skills/`)
+## Workflows (via the `wiki` plugin)
 
 - **wiki_ingest** — add a new source: write the source stub (link + original
   summary), create/update concept and entity pages, refresh `wiki/*/index.md`
@@ -67,8 +79,8 @@ deliberately dropped here.)
 - **practice-exam** — generate a typeset practice exam (LaTeX/PDF) drawing questions
   from `wiki/`, optionally mimicking a real past-exam's structure.
 - **Schema evolution** — update this file when conventions change; contributors and
-  the agent co-maintain it. A schema change should land in the same PR as any script
-  update it implies (e.g. `wiki_lint/lint.py`).
+  the agent co-maintain it. The skills and `lint.py` live in the [wiki-skills](https://github.com/bronsonhill/wiki-skills)
+  repo, so a change to this schema that implies a script change needs a PR there too.
 
 ## Obsidian / Quartz integration
 
