@@ -51,8 +51,8 @@ the configuration they read, in [`.claude/wiki-schema.md`](.claude/wiki-schema.m
 
 | Skill | Use it to... |
 |---|---|
-| `lecture-digest` | Turn lecture videos + slides into a layered digest you can read instead of watching |
-| `wiki_ingest` | Turn a source (lecture, paper, video) into a source page + linked concept/entity pages |
+| `wiki_ingest` | Turn a source (lecture, paper, video) into a source page + linked concept/entity pages, transcribing recordings first |
+| `content-digest` | Turn ingested material into a layered digest you can read instead of watching |
 | `wiki_lint` | Check the wiki's health before/after a PR |
 | `wiki_query` | Ask a question across the wiki and get a cited answer |
 | `cue-cards` | Generate spaced-repetition flashcards (Obsidian Spaced Repetition + Anki export) from any page |
