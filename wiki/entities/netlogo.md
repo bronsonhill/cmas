@@ -35,3 +35,5 @@ Installing it before the first tutorial is a stated prerequisite.
 
 - [[w01a-introduction]] — announced as the subject's main language, with installation
   required before the first tutorial; the Flocking model was demonstrated live.
+- [[w01b-modelling-cycle]] — recommends the online NetLogo tutorials at
+  `https://ccl.northwestern.edu/netlogo/docs/`.

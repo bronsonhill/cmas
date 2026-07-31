@@ -16,3 +16,12 @@ Index of core concepts and theory in computational modelling and simulation.
 - [[simulation]] — computational implementation of a model, run over time | added: 2026-08-01
 - [[stochasticity]] — randomness in models, and how to handle it | added: 2026-08-01
 - [[tipping-point]] — abrupt qualitative change in system behaviour | added: 2026-08-01
+- [[abstraction]] — stripping detail so only what serves the purpose remains | added: 2026-08-01
+- [[agent-sensing]] — what an agent can perceive, and how far | added: 2026-08-01
+- [[counterfactual]] — "what if?" scenario runs | added: 2026-08-01
+- [[model-communication]] — conveying model insight to stakeholders | added: 2026-08-01
+- [[model-structure]] — scales, entities, state variables, processes, parameters | added: 2026-08-01
+- [[occams-razor]] — prefer the simpler of two adequate explanations | added: 2026-08-01
+- [[pattern-oriented-modelling]] — validating against patterns, not exact values | added: 2026-08-01
+- [[research-question]] — the question a model is built to answer | added: 2026-08-01
+- [[search-strategy]] — how an agent looks for something it cannot see | added: 2026-08-01
