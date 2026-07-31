@@ -31,12 +31,18 @@ wiki/
 ├── sources/           # one page per external resource (Canvas link, paper, video) — NO copyrighted text or files, links only
 ├── entities/          # people, models, tools, papers, software (e.g. `netlogo.md`)
 ├── concepts/           # ideas, mechanisms, algorithms (e.g. `cellular-automaton.md`)
-└── materials/         # worked examples, derived notes, cross-source syntheses, revision material
+└── materials/         # digests, worked examples, derived notes, syntheses, revision material
 ```
 
 There is no `raw/` directory. University of Melbourne course materials are copyright —
 never copy the original PDF/slide/video into this repo. Source pages hold a link plus
 an original summary written in your own words.
+
+That extends to transcripts. `wiki_ingest` fetches one when a source is a recording, but
+under `source_policy: link-only` it writes it to a scratch directory outside the repo
+and it is never committed. A transcript is closer to the source material than a summary
+is, so it falls under the same constraint as the slides. What gets committed is what you
+write from it.
 
 ## Page conventions
 
@@ -66,9 +72,12 @@ Multi-subject wikis sharing these skills set `domains` and require the field.
 
 ## Workflows (via the `wiki` plugin)
 
-- **wiki_ingest** — add a new source: write the source stub (link + original
-  summary), create/update concept and entity pages, refresh `wiki/*/index.md`
-  and `wiki/log.md`.
+- **wiki_ingest** — add a new source: obtain a transcript if it's a recording, write
+  the source stub (link + original summary), create/update concept and entity pages,
+  refresh `wiki/*/index.md` and `wiki/log.md`.
+- **content-digest** — turn ingested material into a layered digest built to be read
+  instead of the original, filed under `wiki/materials/` and linked back to its source
+  page. Calls `wiki_ingest` first when handed sources that aren't in the wiki yet.
 - **wiki_query** — answer a question by reading `wiki/index.md` first, then
   synthesizing across pages with citations; file valuable outputs back to
   `wiki/materials/`.
