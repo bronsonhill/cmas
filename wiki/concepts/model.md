@@ -28,8 +28,8 @@ compute, and interpretability while often adding nothing.
 
 Models come in several forms:
 
-- **Physical** — a scale model, e.g. the Oroville Dam spillway model, built to locate
-  points of failure rather than to reproduce flow exactly.
+- **Physical** — a scale model, e.g. the [[oroville-dam-model]], built to locate points of
+  failure rather than to reproduce flow exactly.
 - **Visual or verbal description** — a diagram or written account of how a system works.
 - **Mathematical equations** — e.g. the Navier–Stokes equations describing fluid motion.
 - **Computer program** — the form this subject is concerned with, and the basis of a
@@ -49,8 +49,12 @@ or "wrong" in the abstract, only adequate or inadequate for its purpose.
 - [[agent-based-model]] — a particular kind of simulation model
 - [[complex-system]] — the class of systems this subject models
 - [[modelling-cycle]] — the iterative process by which models are built and refined
+- [[abstraction]] — the stripping away of detail that makes a model usable
+- [[occams-razor]] — prefer the simpler of two adequate models
 
 ## Sources
 
 - [[w01a-introduction]] — introduces the definition and the "purposeful" qualifier, with
   the disease-model and Oroville Dam examples.
+- [[w01b-modelling-cycle]] — adds that models are necessarily *simpler* than the system
+  ([[abstraction]]), developed through the models-of-the-Earth sequence.

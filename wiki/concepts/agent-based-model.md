@@ -66,9 +66,13 @@ science, transportation, and the military.
 - [[complex-system]], [[emergence]] — what ABMs are built to study
 - [[flocking]], [[boids]] — worked example
 - [[modelling-cycle]] — how ABMs are developed
+- [[counterfactual]] — alternate-scenario experiments
+- [[agent-sensing]], [[search-strategy]] — common agent processes
 - [[netlogo]], [[mesa]] — implementation tools
 
 ## Sources
 
 - [[w01a-introduction]] — defines ABM, situates it against other model types, gives the
   understand/control/design framing and the historical arc.
+- [[w01b-modelling-cycle]] — adds [[counterfactual]] experimentation and the ethical case
+  for testing social interventions on simulated rather than real people.

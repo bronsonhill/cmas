@@ -6,3 +6,4 @@ Index of external learning resources. Because University of Melbourne materials 
 
 ## Pages
 - [[w01a-introduction]] — COMP90083 Week 1 (Tuesday) lecture: subject overview and the model / simulation / ABM definitions | added: 2026-08-01
+- [[w01b-modelling-cycle]] — COMP90083 Week 1 (Thursday) lecture: designing a first model and the six-step modelling cycle | added: 2026-08-01

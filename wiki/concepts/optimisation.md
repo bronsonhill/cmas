@@ -37,6 +37,7 @@ descriptions — is what makes simulation useful to policy and design.
 - [[satisficing]] — the contrasting decision criterion
 - [[modelling-cycle]] — calibration and tuning as part of model development
 - [[agent-based-model]] — the models being optimised, and the agents doing the optimising
+- [[search-strategy]] — searching as a concrete optimisation problem
 
 ## Sources
 

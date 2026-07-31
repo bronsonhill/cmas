@@ -43,8 +43,12 @@ behaviour in a [[complex-system]] accessible at all.
 - [[agent-based-model]] — a type of simulation model
 - [[stochasticity]] — why simulation results require replication
 - [[netlogo]], [[mesa]] — the environments used to build simulations in this subject
+- [[counterfactual]] — the alternate-scenario runs a simulation makes possible
+- [[nasa-black-hole-simulation]] — simulation whose purpose was instrument design
 
 ## Sources
 
 - [[w01a-introduction]] — defines simulation via "operation", i.e. behaviour over time,
   and surveys application domains.
+- [[w01b-modelling-cycle]] — stresses that simulation concerns *dynamics* (static models
+  being of limited interest), and adds the [[nasa-black-hole-simulation]] example.
