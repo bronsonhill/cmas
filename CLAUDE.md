@@ -30,6 +30,7 @@ The workflows for growing and maintaining the wiki come from the [wiki-skills](h
 plugin, enabled for this repo via `.claude/settings.json`. Use them rather than
 hand-rolling the equivalent:
 
+- `lecture-digest` — turn lecture videos + slides into a layered digest, then hand off to `wiki_ingest`
 - `wiki_ingest` — add a source (lecture/paper/video) as a page + linked concepts/entities
 - `wiki_lint` — health check; run before any PR touching `wiki/`
 - `wiki_query` — answer a question by synthesizing across the wiki with citations
