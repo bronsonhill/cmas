@@ -38,9 +38,9 @@ agent.
   linking related pages.
 - Never paste copyrighted University of Melbourne material (slides, PDFs, video
   transcripts) into `wiki/`. Source pages hold a link + an original summary —
-  see the copyright note in `.claude/skills/wiki_ingest/SKILL.md`.
+  see `source_policy` in `.claude/wiki-schema.md`.
 - After editing `wiki/`, run `wiki_lint`
-  (`python3 .claude/skills/wiki_lint/lint.py`) before committing/opening a PR.
+  (`python3 ~/.claude/plugins/marketplaces/wiki-skills/plugins/wiki/skills/wiki_lint/lint.py`) before committing/opening a PR.
 
 ## Spaced repetition
 
@@ -49,7 +49,7 @@ Reviewing a deck in Obsidian with the Spaced Repetition plugin writes per-card
 `<!--SR:...-->` scheduling comments straight into the tracked file — never commit
 those. Use the deck's generated Anki `.tsv` export for personal review instead
 (state stays in Anki's local collection, outside git); see
-`.claude/skills/cue-cards/SKILL.md` for the `--skip-worktree` alternative if you
+the `cue-cards` skill for the `--skip-worktree` alternative if you
 want to review in Obsidian directly.
 
 ## Git

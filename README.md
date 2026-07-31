@@ -30,5 +30,5 @@ Murmarate is a java library designed for learning agent based modelling and simu
 ## Contributing
 This repo is designed to be a resource which students of Computational Modelling and Simulation can use to study, and contribute to. I have used a private wiki in subjects like Natural Language Processing with success, and so am building this one in public.
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for how to add sources, concept/entity pages, and study material — including the AI-agent skills in `.claude/skills/` that automate most of the ingest work. Lightweight formatting/workflow rules live in [RULES.md](RULES.md).
+See [CONTRIBUTING.md](CONTRIBUTING.md) for how to add sources, concept/entity pages, and study material — including the AI-agent skills, distributed as the [wiki-skills](https://github.com/bronsonhill/wiki-skills) plugin, that automate most of the ingest work. Lightweight formatting/workflow rules live in [RULES.md](RULES.md).
 

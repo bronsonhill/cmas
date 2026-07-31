@@ -13,7 +13,7 @@
 ## What to contribute
 
 - **A source page**: ingest a lecture, reading, or paper you've gone through
-  (see [wiki_ingest](.claude/skills/wiki_ingest/SKILL.md)).
+  (see the `wiki_ingest` skill).
 - **A concept or entity page**: fill in or improve an existing page, add a `## Formula` section, or fix a definition that's unclear or wrong.
 - **Material**: worked examples, a synthesis comparing two concepts, revision
   notes, or a generated practice exam / cue-card deck you found useful.
@@ -36,26 +36,36 @@ reference: [`RULES.md`](RULES.md). The essentials:
   recordings are copyright. Never commit the original file or a copy-pasted
   excerpt. Source pages hold a `link` to the original (e.g. the Canvas URL) plus
   an original summary.
-- Run the lint script before opening a PR:
+- Run the lint check before opening a PR. Ask the agent for `wiki_lint`, or run the
+  script directly once the plugin is installed:
   ```bash
-  python3 .claude/skills/wiki_lint/lint.py
+  python3 ~/.claude/plugins/marketplaces/wiki-skills/plugins/wiki/skills/wiki_lint/lint.py
   ```
 
 ## Using the AI agents
 
 This is explicitly an *agentic* wiki (in the spirit of Andrej Karpathy's
-append-only LLM wiki pattern) — `.claude/skills/` has skills that automate most
-of the mechanical work:
+append-only LLM wiki pattern). The skills that automate most of the mechanical work
+live in the [wiki-skills](https://github.com/bronsonhill/wiki-skills) plugin, shared with other wikis; this repo supplies only
+the configuration they read, in [`.claude/wiki-schema.md`](.claude/wiki-schema.md).
 
 | Skill | Use it to... |
 |---|---|
-| [`wiki_ingest`](.claude/skills/wiki_ingest/SKILL.md) | Turn a source (lecture, paper, video) into a source page + linked concept/entity pages |
-| [`wiki_lint`](.claude/skills/wiki_lint/SKILL.md) | Check the wiki's health before/after a PR |
-| [`wiki_query`](.claude/skills/wiki_query/SKILL.md) | Ask a question across the wiki and get a cited answer |
-| [`cue-cards`](.claude/skills/cue-cards/SKILL.md) | Generate spaced-repetition flashcards (Obsidian Spaced Repition + Anki export) from any page |
-| [`practice-exam`](.claude/skills/practice-exam/SKILL.md) | Generate a typeset LaTeX practice exam from wiki content |
+| `wiki_ingest` | Turn a source (lecture, paper, video) into a source page + linked concept/entity pages |
+| `wiki_lint` | Check the wiki's health before/after a PR |
+| `wiki_query` | Ask a question across the wiki and get a cited answer |
+| `cue-cards` | Generate spaced-repetition flashcards (Obsidian Spaced Repetition + Anki export) from any page |
+| `practice-exam` | Generate a typeset LaTeX practice exam from wiki content |
 
-If you're using Claude Code (or another agent that reads `.claude/skills/`), just
+Claude Code picks the plugin up automatically from `.claude/settings.json` when you open
+this repo, prompting you to trust the marketplace the first time. To install it by hand:
+
+```
+/plugin marketplace add bronsonhill/wiki-skills
+/plugin install wiki@wiki-skills
+```
+
+With the plugin installed, just
 describe what you want ("ingest this lecture", "make cue cards on cellular
 automata") and the relevant skill takes over. You're still the reviewer. So
 check the output before it goes in a PR, especially for factual accuracy.
@@ -78,9 +88,9 @@ or edit it.
 ## PR / git workflow
 
 1. Fork the repo (or branch, if you have write access).
-2. Make your changes under `wiki/` (and, if you're changing schema/skills,
-   under `.claude/`).
-3. Run `python3 .claude/skills/wiki_lint/lint.py` and resolve what it flags.
+2. Make your changes under `wiki/` (and, if you're changing the schema, under
+   `.claude/`). Changes to the skills themselves go to the [wiki-skills](https://github.com/bronsonhill/wiki-skills) repo.
+3. Run `python3 ~/.claude/plugins/marketplaces/wiki-skills/plugins/wiki/skills/wiki_lint/lint.py` and resolve what it flags.
 4. Commit with a clear, scoped message, e.g.:
    ```
    ingest: Cellular Automata lecture — added 4 concepts, 2 entities
