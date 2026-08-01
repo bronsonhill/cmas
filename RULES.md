@@ -39,8 +39,8 @@ agent.
 - Never paste copyrighted University of Melbourne material (slides, PDFs, video
   transcripts) into `wiki/`. Source pages hold a link + an original summary —
   see `source_policy` in `.claude/wiki-schema.md`.
-- After editing `wiki/`, run `wiki_lint`
-  (`python3 ~/.claude/plugins/marketplaces/wiki-skills/plugins/wiki/skills/wiki_lint/lint.py`) before committing/opening a PR.
+- After editing `wiki/`, run `lint`
+  (`python3 ~/.claude/plugins/marketplaces/wiki-skills/plugins/wiki/skills/lint/lint.py`) before committing/opening a PR.
 
 ## Spaced repetition
 

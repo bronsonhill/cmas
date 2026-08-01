@@ -38,7 +38,7 @@ There is no `raw/` directory. University of Melbourne course materials are copyr
 never copy the original PDF/slide/video into this repo. Source pages hold a link plus
 an original summary written in your own words.
 
-That extends to transcripts. `wiki_ingest` fetches one when a source is a recording, but
+That extends to transcripts. `ingest` fetches one when a source is a recording, but
 under `source_policy: link-only` it writes it to a scratch directory outside the repo
 and it is never committed. A transcript is closer to the source material than a summary
 is, so it falls under the same constraint as the slides. What gets committed is what you
@@ -72,16 +72,16 @@ Multi-subject wikis sharing these skills set `domains` and require the field.
 
 ## Workflows (via the `wiki` plugin)
 
-- **wiki_ingest** — add a new source: obtain a transcript if it's a recording, write
+- **ingest** — add a new source: obtain a transcript if it's a recording, write
   the source stub (link + original summary), create/update concept and entity pages,
   refresh `wiki/*/index.md` and `wiki/log.md`.
 - **content-digest** — turn ingested material into a layered digest built to be read
   instead of the original, filed under `wiki/materials/` and linked back to its source
-  page. Calls `wiki_ingest` first when handed sources that aren't in the wiki yet.
-- **wiki_query** — answer a question by reading `wiki/index.md` first, then
+  page. Calls `ingest` first when handed sources that aren't in the wiki yet.
+- **query** — answer a question by reading `wiki/index.md` first, then
   synthesizing across pages with citations; file valuable outputs back to
   `wiki/materials/`.
-- **wiki_lint** — check dangling links, orphans, index drift, frontmatter issues;
+- **lint** — check dangling links, orphans, index drift, frontmatter issues;
   update `wiki/log.md` and write a report to `wiki/lint-reports/`.
 - **cue-cards** — generate spaced-repetition cards from any content page, output in
   Obsidian Spaced Repetition format with an Anki-importable export alongside it.
@@ -104,7 +104,7 @@ Multi-subject wikis sharing these skills set `domains` and require the field.
 
 - Ingest one source at a time; give a human (you, or a PR reviewer) a chance to
   sanity-check before scaling up.
-- Run `wiki_lint` after every ingest and periodically (e.g. weekly, or as part of
+- Run `lint` after every ingest and periodically (e.g. weekly, or as part of
   PR review) as the wiki grows.
 - Start small — a couple of concept pages fleshed out well beat a dozen stubs.
 
