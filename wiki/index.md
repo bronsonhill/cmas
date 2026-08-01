@@ -1,5 +1,5 @@
 ---
-title: CMAS Wiki
+title: Computational Modelling and Simulation
 ---
 
 A collaborative agent-based wiki and library for learning computational modelling and simulation.
