@@ -13,11 +13,11 @@
 ## What to contribute
 
 - **A source page**: ingest a lecture, reading, or paper you've gone through
-  (see the `wiki_ingest` skill).
+  (see the `ingest` skill).
 - **A concept or entity page**: fill in or improve an existing page, add a `## Formula` section, or fix a definition that's unclear or wrong.
 - **Material**: worked examples, a synthesis comparing two concepts, revision
   notes, or a generated practice exam / cue-card deck you found useful.
-- **Wiki health**: run `wiki_lint` and fix what it finds (dangling links,
+- **Wiki health**: run `lint` and fix what it finds (dangling links,
   orphan pages, missing frontmatter).
 
 You don't need to be an AI/agent power-user to contribute: plain Markdown edits
@@ -36,10 +36,10 @@ reference: [`RULES.md`](RULES.md). The essentials:
   recordings are copyright. Never commit the original file or a copy-pasted
   excerpt. Source pages hold a `link` to the original (e.g. the Canvas URL) plus
   an original summary.
-- Run the lint check before opening a PR. Ask the agent for `wiki_lint`, or run the
+- Run the lint check before opening a PR. Ask the agent for `lint`, or run the
   script directly once the plugin is installed:
   ```bash
-  python3 ~/.claude/plugins/marketplaces/wiki-skills/plugins/wiki/skills/wiki_lint/lint.py
+  python3 ~/.claude/plugins/marketplaces/wiki-skills/plugins/wiki/skills/lint/lint.py
   ```
 
 ## Using the AI agents
@@ -51,10 +51,10 @@ the configuration they read, in [`.claude/wiki-schema.md`](.claude/wiki-schema.m
 
 | Skill | Use it to... |
 |---|---|
-| `wiki_ingest` | Turn a source (lecture, paper, video) into a source page + linked concept/entity pages, transcribing recordings first |
+| `ingest` | Turn a source (lecture, paper, video) into a source page + linked concept/entity pages, transcribing recordings first |
 | `content-digest` | Turn ingested material into a layered digest you can read instead of watching |
-| `wiki_lint` | Check the wiki's health before/after a PR |
-| `wiki_query` | Ask a question across the wiki and get a cited answer |
+| `lint` | Check the wiki's health before/after a PR |
+| `query` | Ask a question across the wiki and get a cited answer |
 | `cue-cards` | Generate spaced-repetition flashcards (Obsidian Spaced Repetition + Anki export) from any page |
 | `practice-exam` | Generate a typeset LaTeX practice exam from wiki content |
 
@@ -91,7 +91,7 @@ or edit it.
 1. Fork the repo (or branch, if you have write access).
 2. Make your changes under `wiki/` (and, if you're changing the schema, under
    `.claude/`). Changes to the skills themselves go to the [wiki-skills](https://github.com/bronsonhill/wiki-skills) repo.
-3. Run `python3 ~/.claude/plugins/marketplaces/wiki-skills/plugins/wiki/skills/wiki_lint/lint.py` and resolve what it flags.
+3. Run `python3 ~/.claude/plugins/marketplaces/wiki-skills/plugins/wiki/skills/lint/lint.py` and resolve what it flags.
 4. Commit with a clear, scoped message, e.g.:
    ```
    ingest: Cellular Automata lecture — added 4 concepts, 2 entities

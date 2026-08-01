@@ -31,9 +31,9 @@ plugin, enabled for this repo via `.claude/settings.json`. Use them rather than
 hand-rolling the equivalent:
 
 - `content-digest` — turn ingested material into a layered digest you can read instead of the original
-- `wiki_ingest` — add a source (lecture/paper/video) as a page + linked concepts/entities; captures transcripts for recordings
-- `wiki_lint` — health check; run before any PR touching `wiki/`
-- `wiki_query` — answer a question by synthesizing across the wiki with citations
+- `ingest` — add a source (lecture/paper/video) as a page + linked concepts/entities; captures transcripts for recordings
+- `lint` — health check; run before any PR touching `wiki/`
+- `query` — answer a question by synthesizing across the wiki with citations
 - `cue-cards` — generate spaced-repetition decks (Obsidian SR + Anki export)
 - `practice-exam` — generate a typeset LaTeX practice exam from wiki content
 
@@ -42,7 +42,7 @@ hand-rolling the equivalent:
 ```bash
 npm install
 npx quartz build --serve       # local preview, reads from wiki/
-python3 ~/.claude/plugins/marketplaces/wiki-skills/plugins/wiki/skills/wiki_lint/lint.py   # wiki health check
+python3 ~/.claude/plugins/marketplaces/wiki-skills/plugins/wiki/skills/lint/lint.py   # wiki health check
 ```
 
 ## Contributing / git
