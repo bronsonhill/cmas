@@ -15,7 +15,7 @@ const config: QuartzConfig = {
     analytics: null,
     locale: "en-US",
     baseUrl: "bronsonhill.github.io/cmas",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: ["private", "templates", ".obsidian", "log.md", "lint-reports"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
