@@ -64,6 +64,7 @@ const config: QuartzConfig = {
         },
         keepBackground: false,
       }),
+      Plugin.CueCards(),
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents(),
