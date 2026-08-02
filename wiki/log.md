@@ -29,3 +29,13 @@
 ## [2026-08-01] lint
 
 - 40 pages scanned, 0 issues. Report: `wiki/lint-reports/2026-08-01.md`
+
+## [2026-08-02] cue-cards | Week 1 lectures
+
+- **New material pages:** week-01-cue-cards (16 cards: 5 elaborative interrogation,
+  4 mechanism, 4 contrast, 3 failure-mode)
+- **Derived from:** sources/w01a-introduction, sources/w01b-modelling-cycle, and the
+  Week 1 concept pages
+- **Updated pages:** materials/index
+- **Anki export:** `wiki/materials/week-01-cue-cards.anki.tsv` (gitignored, regenerable)
+
