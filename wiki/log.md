@@ -1,6 +1,6 @@
 # Content Log
 
-## [2026-08-01] ingest | Week 1 (Tuesday): Introduction
+## [2026-08-01] ingest | Week 1a: Introduction
 
 - **Source page:** `wiki/sources/w01a-introduction.md`
 - **New concept pages:** agent-based-model, complex-system, emergence, flocking, model,
@@ -13,7 +13,7 @@
 
 - 24 pages scanned, 0 issues. Report: `wiki/lint-reports/2026-08-01.md`
 
-## [2026-08-01] ingest | Week 1 (Thursday): A First Model & the Modelling Cycle
+## [2026-08-01] ingest | Week 1b: A First Model & the Modelling Cycle
 
 - **Source page:** `wiki/sources/w01b-modelling-cycle.md`
 - **New concept pages:** abstraction, agent-sensing, counterfactual, model-communication,

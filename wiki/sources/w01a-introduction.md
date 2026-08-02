@@ -1,5 +1,5 @@
 ---
-title: "Week 1 (Tuesday): Introduction"
+title: "Week 1a: Introduction"
 type: source
 source_type: lecture
 link: https://canvas.lms.unimelb.edu.au/courses/239814
@@ -7,7 +7,7 @@ tags: [comp90083, week-01, lecture, introduction, definitions]
 date: 2026-08-01
 ---
 
-# Week 1 (Tuesday): Introduction
+# Week 1a: Introduction
 
 ## Overview
 

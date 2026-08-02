@@ -1,5 +1,5 @@
 ---
-title: "Week 1 (Thursday): A First Model & the Modelling Cycle"
+title: "Week 1b: A First Model & the Modelling Cycle"
 type: source
 source_type: lecture
 link: https://canvas.lms.unimelb.edu.au/courses/239814
@@ -7,7 +7,7 @@ tags: [comp90083, week-01, lecture, modelling-cycle, model-design]
 date: 2026-08-01
 ---
 
-# Week 1 (Thursday): A First Model & the Modelling Cycle
+# Week 1b: A First Model & the Modelling Cycle
 
 ## Overview
 

@@ -47,6 +47,11 @@ write from it.
 ## Page conventions
 
 - **Naming:** kebab-case.md (e.g. `agent-based-model.md`).
+- **Source naming:** lecture sources are prefixed `wNNx-` where `NN` is the
+  zero-padded week and `x` is a letter ordering the lectures within that week
+  (`w01a-introduction.md`, `w01b-modelling-cycle.md`). Titles match the prefix —
+  `Week 1a: Introduction`. Don't name the day of the week; the letter carries the
+  ordering, and days shift between offerings.
 - **Frontmatter (YAML)**, required on every content page:
   ```yaml
   ---
@@ -99,6 +104,9 @@ Multi-subject wikis sharing these skills set `domains` and require the field.
   Quartz can't render (check `quartz/plugins/` if unsure).
 - `wiki/` is versioned as part of this same git repo (not a separate wiki repo) —
   see `CONTRIBUTING.md` for the PR workflow.
+- Repo-keeping pages are excluded from the published site via `ignorePatterns` in
+  `quartz.config.ts`: `log.md` and `lint-reports/` are maintenance records for
+  contributors, not content for readers. They stay in the vault and in git.
 
 ## Tips
 
