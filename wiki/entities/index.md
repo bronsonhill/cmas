@@ -15,3 +15,8 @@ Index of agents, actors, and objects modelled in computational simulations.
 - [[mercator-projection]] — purposeful distortion in a model of the Earth | added: 2026-08-01
 - [[nasa-black-hole-simulation]] — simulation built to guide instrument design | added: 2026-08-01
 - [[oroville-dam-model]] — physical scale model built to find failure points | added: 2026-08-01
+- [[volker-grimm]] — ecologist who formulated the ODD protocol | added: 2026-08-06
+- [[grimm-odd-2010]] — the ODD protocol paper set as Week 2 reading | added: 2026-08-06
+- [[sars-2003-outbreak]] — the contained outbreak | added: 2026-08-06
+- [[covid-19-pandemic]] — the uncontained one | added: 2026-08-06
+- [[doherty-institute]] — built the ABMs behind Australia's COVID-19 response | added: 2026-08-06

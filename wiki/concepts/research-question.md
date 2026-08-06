@@ -35,12 +35,17 @@ does the work of deciding the rest of the design: scales, entities, which proces
 
 Almost every downstream modelling decision traces back to the question. A vague question
 produces a model with no principled basis for inclusion or exclusion, which is how models
-sprawl. For coursework, both projects require formulating a question, and it is where
-marks are most readily lost.
+sprawl. The lecturer named this failure mode directly in Week 2 as **scope creep**, the
+project-management term for a task whose boundaries were never specified: the question is
+what fixes the scope, and the model is finished when it answers the question rather than
+when it runs out of features to add. For coursework, both projects require formulating a
+question, and it is where marks are most readily lost.
 
 ## Relationships
 
 - [[modelling-cycle]] — step 1
+- [[odd-protocol]] — the question becomes the Purpose section
+- [[model-extension]] — each extension should be motivated by a question
 - [[model]] — purpose, of which the research question is the operational form
 - [[abstraction]] — the question licenses the simplifications
 - [[model-structure]] — what the question is translated into
@@ -50,3 +55,5 @@ marks are most readily lost.
 
 - [[w01b-modelling-cycle]] — presented as the hardest and most important step, with the
   mushroom/truffle narrowing as the demonstration.
+- [[w02a-describing-models]] — the scope-creep argument for defining the question first,
+  and the Assignment 1 requirement to state a research question.
