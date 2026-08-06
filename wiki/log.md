@@ -39,3 +39,21 @@
 - **Updated pages:** materials/index
 - **Anki export:** `wiki/materials/week-01-cue-cards.anki.tsv` (gitignored, regenerable)
 
+
+## [2026-08-06] ingest | Week 2a: Describing Models & Week 2b: Modelling Disease Spread
+
+- **Source pages:** `wiki/sources/w02a-describing-models.md`,
+  `wiki/sources/w02b-modelling-disease-spread.md`
+- **New concept pages:** odd-protocol, model-scales, scheduling, initial-conditions,
+  reproducibility, sir-model, compartmental-model, contact-rate, exponential-growth,
+  epidemic-intervention, null-model, model-extension
+- **New entity pages:** volker-grimm, grimm-odd-2010, sars-2003-outbreak,
+  covid-19-pandemic, doherty-institute
+- **New material pages:** zombie-apocalypse-model-design
+- **Updated pages:** concepts/model-structure, concepts/modelling-cycle,
+  concepts/stochasticity, concepts/model-communication, concepts/research-question,
+  entities/andres-munoz, entities/covid-19-abm-australia, all four section indexes
+
+## [2026-08-06] lint
+
+- 61 pages scanned, 0 issues. Report: `wiki/lint-reports/2026-08-06.md`

@@ -37,8 +37,16 @@ subject; the tutorials introduce replication and confidence levels earlier.
 - [[agent-based-model]] — the models concerned
 - [[tipping-point]] — replication is required to establish thresholds
 - [[modelling-cycle]] — verification of a stochastic model means comparing distributions
+- [[sir-model]] — both transitions are random draws against a threshold
+- [[scheduling]] — the order of actions determines which draws apply to which agents
+- [[reproducibility]] — a stochastic result is reproducible only with the seed or enough
+  replicates
 
 ## Sources
 
 - [[w01a-introduction]] — flagged in response to a student question on confidence levels;
   replication and sensitivity analysis named as the handling strategies.
+- [[w02a-describing-models]] — named as one of the ten ODD design concepts.
+- [[w02b-modelling-disease-spread]] — the SIR implementation, where infection and recovery
+  are both decided by drawing a random number and comparing it against $q$ or $\gamma$;
+  the traced run is explicitly one sample of a stochastic system.

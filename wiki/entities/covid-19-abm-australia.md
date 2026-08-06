@@ -36,3 +36,5 @@ shopping baskets do not.
 
 - [[w01a-introduction]] — presented as the motivating policy example for agent-based
   modelling.
+- [[w02b-modelling-disease-spread]] — the [[doherty-institute]] context in which this
+  class of model was built, and the [[sir-model]] it scales up from.

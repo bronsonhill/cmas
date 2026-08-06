@@ -39,11 +39,14 @@ errors before they are expensive. See [[model-communication]].
 
 This is where a vague intention becomes something implementable, and where most silent
 mistakes are made — an omitted state variable or a badly chosen scale is far cheaper to
-fix on paper than after implementation. It also maps directly onto the ODD protocol used
-to describe ABMs formally.
+fix on paper than after implementation. It also maps directly onto the [[odd-protocol]],
+which is the formal template for writing exactly this specification down: purpose,
+entities and state variables, [[model-scales]], processes and [[scheduling]], then the
+details of [[initial-conditions]], input data and submodels.
 
 ## Relationships
 
+- [[odd-protocol]] — the formalisation of this specification
 - [[modelling-cycle]] — step 3
 - [[research-question]] — determines what the structure must contain
 - [[abstraction]] — the judgement applied when selecting elements
@@ -55,3 +58,4 @@ to describe ABMs formally.
 
 - [[w01b-modelling-cycle]] — "choose scales, entities, state variables, processes, and
   parameters", with the emphasis on producing a written outline before writing code.
+- [[w02a-describing-models]] — the ODD protocol as the standardised form of this outline.

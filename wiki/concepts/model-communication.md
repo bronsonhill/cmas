@@ -45,8 +45,12 @@ results were communicated in a form decision-makers could use.
 - [[model-structure]] — the plain-language outline that enables expert review
 - [[covid-19-abm-australia]] — modelling communicated into policy
 - [[research-question]] — a clear question makes for a communicable answer
+- [[odd-protocol]] — the standardised template for the plain-language description
+- [[reproducibility]] — why publishing code is not a substitute
 
 ## Sources
 
 - [[w01b-modelling-cycle]] — the sixth step, with stakeholder management and the
   multidisciplinary argument for plain-language description.
+- [[w02a-describing-models]] — the ODD protocol as the standard form; the argument that
+  code cannot be handed to a non-programming multidisciplinary audience.

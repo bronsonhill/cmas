@@ -25,3 +25,15 @@ Index of core concepts and theory in computational modelling and simulation.
 - [[pattern-oriented-modelling]] — validating against patterns, not exact values | added: 2026-08-01
 - [[research-question]] — the question a model is built to answer | added: 2026-08-01
 - [[search-strategy]] — how an agent looks for something it cannot see | added: 2026-08-01
+- [[odd-protocol]] — the standard plain-language template for describing ABMs | added: 2026-08-06
+- [[model-scales]] — temporal extent and resolution, spatial explicitness and discretisation | added: 2026-08-06
+- [[scheduling]] — the ordered sequence of actions per time step, and why update order matters | added: 2026-08-06
+- [[initial-conditions]] — the model state at t = 0 | added: 2026-08-06
+- [[reproducibility]] — rebuilding a model from its description | added: 2026-08-06
+- [[sir-model]] — susceptible, infectious, recovered — the minimal disease model | added: 2026-08-06
+- [[compartmental-model]] — populations partitioned into states with flows between them | added: 2026-08-06
+- [[contact-rate]] — how many others a person meets, and why well-mixed breaks at scale | added: 2026-08-06
+- [[exponential-growth]] — the uncontained-outbreak regime | added: 2026-08-06
+- [[epidemic-intervention]] — actions that reduce transmission, and how to model them | added: 2026-08-06
+- [[null-model]] — a baseline with no structure, so patterns are attributable | added: 2026-08-06
+- [[model-extension]] — start basic, add one element at a time | added: 2026-08-06

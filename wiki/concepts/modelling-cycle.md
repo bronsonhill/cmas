@@ -52,11 +52,17 @@ its plausibility, and it establishes that a first model is *expected* to be wron
 coursework it is also the implicit structure of both projects — question, design,
 implementation, analysis, report.
 
-The cycle is elaborated alongside the ODD protocol for describing ABMs, and its later
-stages connect to calibration, sensitivity and uncertainty analysis in weeks 10–12.
+The [[odd-protocol]] occupies the transition from step 2 to step 3: it is the mechanism
+for turning brainstormed hypotheses into a formal written model structure. Week 2 also
+supplies the lecturer's reasons for the cycle being iterative — the question may need
+reformulating, the implementation may contain errors, or the model may simply not produce
+the behaviour of interest. The later stages connect to calibration, sensitivity and
+uncertainty analysis in weeks 10–12.
 
 ## Relationships
 
+- [[odd-protocol]] — spans the step 2 → step 3 transition
+- [[model-extension]] — iterating the cycle by adding one element at a time
 - [[research-question]] — step 1, and the hardest
 - [[model-structure]] — step 3
 - [[model-communication]] — step 6
@@ -72,3 +78,5 @@ stages connect to calibration, sensitivity and uncertainty analysis in weeks 10�
   loop is not strictly sequential, and emphasis on question formulation and communication.
 - [[w01a-introduction]] — earlier, briefer sketch of the cycle as hypothesis → build →
   verify → refine.
+- [[w02a-describing-models]] — locates ODD between steps 2 and 3, and gives three reasons
+  the cycle iterates: wrong question, implementation errors, absent target behaviour.
