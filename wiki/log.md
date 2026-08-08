@@ -57,3 +57,17 @@
 ## [2026-08-06] lint
 
 - 61 pages scanned, 0 issues. Report: `wiki/lint-reports/2026-08-06.md`
+
+## [2026-08-08] query | Limitations of SIR compared to an ABM
+
+- **Question:** what are the limitations of an SIR (compartmental/equation-based) model
+  compared to an agent-based model?
+- **Pages read:** concepts/sir-model, concepts/compartmental-model, concepts/contact-rate,
+  concepts/agent-based-model, sources/w02b-modelling-disease-spread
+- **New material page:** compartmental-vs-agent-based
+- **Updated pages:** concepts/sir-model, concepts/compartmental-model,
+  concepts/agent-based-model, materials/index
+- **Gap flagged:** no source in the wiki develops the ODE/aggregate formulation directly —
+  the aggregate side is reconstructed from one sentence in w02b. A reading on compartmental
+  epidemiology would let the comparison cite rather than infer. The "costs of the ABM"
+  section is marked in-page as an addition, not derived from ingested content.

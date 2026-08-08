@@ -46,6 +46,7 @@ level at which the [[odd-protocol]] wants the model described.
 - [[agent-based-model]] — the reinterpretation of compartments as individual states
 - [[model-extension]] — adding compartments as the standard extension route
 - [[model-structure]] — compartments are state-variable values
+- [[compartmental-vs-agent-based]] — the two readings of the diagram compared in full
 
 ## Sources
 
