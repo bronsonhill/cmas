@@ -9,3 +9,4 @@ Index of worked examples, notes, and derived study material.
 - [[week-01-cue-cards]] — spaced-repetition deck for both Week 1 lectures (16 cards) | added: 2026-08-02
 - [[zombie-apocalypse-model-design]] — worked ODD Overview section from the Week 2b design exercise | added: 2026-08-06
 - [[compartmental-vs-agent-based]] — what the aggregate SIR formulation gives up against an ABM, and what it costs | added: 2026-08-08
+- [[week-02-cue-cards]] — spaced-repetition deck for both Week 2 lectures (16 cards) | added: 2026-08-09
