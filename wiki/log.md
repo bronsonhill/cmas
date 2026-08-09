@@ -71,3 +71,13 @@
   the aggregate side is reconstructed from one sentence in w02b. A reading on compartmental
   epidemiology would let the comparison cite rather than infer. The "costs of the ABM"
   section is marked in-page as an addition, not derived from ingested content.
+
+## [2026-08-09] cue-cards | Week 2 lectures
+
+- **New material pages:** week-02-cue-cards (16 cards: 6 elaborative interrogation,
+  3 mechanism, 2 contrast, 5 failure-mode)
+- **Derived from:** sources/w02a-describing-models, sources/w02b-modelling-disease-spread,
+  and the Week 2 concept pages (odd-protocol, sir-model, scheduling, contact-rate,
+  null-model, model-scales)
+- **Updated pages:** materials/index
+- **Anki export:** `wiki/materials/week-02-cue-cards.anki.tsv` (gitignored, regenerable)
