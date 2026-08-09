@@ -69,6 +69,7 @@ science, transportation, and the military.
 - [[counterfactual]] — alternate-scenario experiments
 - [[agent-sensing]], [[search-strategy]] — common agent processes
 - [[netlogo]], [[mesa]] — implementation tools
+- [[compartmental-vs-agent-based]] — ABM against the aggregate equation-based alternative
 
 ## Sources
 

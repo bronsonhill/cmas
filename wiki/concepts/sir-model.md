@@ -84,6 +84,7 @@ is deliberately weak, and naming the weaknesses is the route to a research quest
 - [[epidemic-intervention]], [[model-extension]] — routes to extending it
 - [[null-model]], [[initial-conditions]] — the uniform, single-patient-zero setup
 - [[covid-19-abm-australia]] — a policy-scale descendant
+- [[compartmental-vs-agent-based]] — what the aggregate formulation of this model gives up
 
 ## Sources
 
