@@ -12,3 +12,4 @@ Index of worked examples, notes, and derived study material.
 - [[week-02-cue-cards]] — spaced-repetition deck for both Week 2 lectures (16 cards) | added: 2026-08-09
 - [[w03a-analysing-models-digest]] — layered digest of the Week 3a lecture, readable instead of the original | added: 2026-08-16
 - [[w03b-reproduction-number-digest]] — layered digest of the Week 3b lecture, readable instead of the original | added: 2026-08-16
+- [[week-03-cue-cards]] — comprehensive spaced-repetition deck for both Week 3 lectures (38 cards) | added: 2026-08-16
