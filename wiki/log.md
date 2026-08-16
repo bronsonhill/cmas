@@ -81,3 +81,38 @@
   null-model, model-scales)
 - **Updated pages:** materials/index
 - **Anki export:** `wiki/materials/week-02-cue-cards.anki.tsv` (gitignored, regenerable)
+
+## [2026-08-16] ingest | Week 3a: Analysing Models
+
+- **Source page:** `wiki/sources/w03a-analysing-models.md`
+- **New concept pages:** model-analysis, modelling-for-science, modelling-for-policy,
+  summary-statistic, outbreak-summary-measures, bimodal-distribution, stochastic-fadeout
+- **New entity pages:** schelling-segregation-model, thomas-schelling,
+  influenza-antiviral-stockpile-model
+- **Updated pages:** concepts/stochasticity, concepts/tipping-point, concepts/sir-model,
+  concepts/modelling-cycle, concepts/epidemic-intervention, entities/netlogo,
+  entities/andres-munoz, materials/compartmental-vs-agent-based, sources/index,
+  concepts/index, entities/index
+
+## [2026-08-16] ingest | Week 3b: The Reproduction Number and Deterministic Models
+
+- **Source page:** `wiki/sources/w03b-reproduction-number.md`
+- **New concept pages:** reproduction-number, herd-immunity-threshold, deterministic-model,
+  difference-equation
+- **New entity pages:** netlogo-hiv-model
+- **Updated pages:** concepts/sir-model, concepts/compartmental-model,
+  concepts/exponential-growth, concepts/epidemic-intervention, concepts/tipping-point,
+  concepts/stochasticity, entities/netlogo, entities/andres-munoz,
+  materials/compartmental-vs-agent-based, sources/index, concepts/index, entities/index
+- **Gap closed:** the open question on `materials/compartmental-vs-agent-based` — that the
+  aggregate/ODE formulation was reconstructed from one sentence in w02b — is resolved by
+  this source, which gives the difference and differential equations directly.
+- **Source discrepancies:** the recording differs from the slides on the fadeout example's
+  recovery rate (1.4 spoken vs 0.4 on the slide), COVID-19 reproduction numbers by variant,
+  and the measles/chickenpox coverage thresholds. Slides taken as authoritative and the
+  discrepancies recorded on the source page.
+
+## [2026-08-16] lint | post-ingest check
+
+- **Result:** 81 pages scanned, 0 issues. No dangling links, orphans or index drift.
+- **Report:** `wiki/lint-reports/2026-08-16.md`

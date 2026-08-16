@@ -88,6 +88,13 @@ gives a different curve. The aggregate ODE version yields one smooth determinist
 trajectory instead, which is exactly what you do not want at small numbers or near
 extinction.
 
+[[w03a-analysing-models]] quantifies how much this costs. Repeated stochastic runs at
+$N = 10{,}000$, $\beta = 2.5$, $\gamma = 0.4$ ($R_0 = 6.25$) produce a bimodal final-size
+distribution: roughly 45% of runs fade out before the outbreak establishes, and the rest
+infect around 5,200 agents ([[stochastic-fadeout]], [[bimodal-distribution]]). The
+deterministic version produces an outbreak every time, so the entire fadeout mode is
+invisible to it — and increasing the population to a million does not remove that mode.
+
 ### Extension is structurally richer in the agent-based version
 
 Adding a compartment to the aggregate version means adding an equation and a rate. Adding
@@ -120,6 +127,10 @@ a source before being relied on in assessment.
 - **Analytical tractability.** Compartmental models yield closed-form results — a basic
   reproduction number, an epidemic threshold, a final-size relation. An ABM yields sampled
   runs, so equivalent statements have to be established empirically over many replicates.
+  [[w03b-reproduction-number]] confirms this from the lecture side: $R_0 = \beta/\gamma$,
+  the saturating attack-rate curve, and the coverage threshold $v \ge 1 - 1/R_0$ are all
+  derived from the deterministic equations ([[reproduction-number]],
+  [[herd-immunity-threshold]]).
 - **Parameter burden.** Empirical grounding is already uneven at SIR scale: recovery rate
   can be estimated from observed illness duration (roughly a week for influenza), but $q$ is
   hard to estimate because it depends on contact behaviour ([[sir-model]]). Adding agent
@@ -146,6 +157,8 @@ pull.
 - [[contact-rate]] — the assumption that breaks first
 - [[stochasticity]], [[epidemic-intervention]], [[model-extension]] — the axes of difference
 - [[zombie-apocalypse-model-design]] — worked case of an agent-level compartment split
+- [[deterministic-model]], [[difference-equation]] — the aggregate formulation in full
+- [[stochastic-fadeout]], [[bimodal-distribution]] — what the deterministic version cannot show
 
 ## Sources
 
@@ -154,12 +167,19 @@ pull.
   parameter-plausibility argument, and the weaknesses raised in discussion.
 - [[w01a-introduction]] — the definition of an ABM and the case for it where averaging
   would destroy the mechanism.
+- [[w03b-reproduction-number]] — the deterministic compartmental formulation as difference
+  and differential equations, and the analytical results derived from it. Ingested
+  2026-08-16, closing the gap flagged below.
+- [[w03a-analysing-models]] — the distribution of outcomes across stochastic replicates.
 
 ## Open questions
 
-- The aggregate/ODE side is reconstructed from a single sentence in
+- ~~The aggregate/ODE side is reconstructed from a single sentence in
   [[w02b-modelling-disease-spread]]; no source in the wiki develops the mathematical
-  formulation directly. A reading on compartmental epidemiology would let the comparison
-  cite rather than infer.
+  formulation directly.~~ **Resolved 2026-08-16.** [[w03b-reproduction-number]] gives the
+  difference and differential equation formulation and the results derived from it, so the
+  aggregate side of this comparison now cites a source rather than inferring. The sections
+  above have been updated where the new source bears on them; the "costs of the agent-based
+  version" list is still partly an addition rather than lecture-derived.
 - Whether the subject expects the ODE-vs-ABM contrast in assessment at all is unconfirmed —
   Assignment 1 extends the agent-based version.

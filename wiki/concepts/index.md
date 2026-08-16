@@ -37,3 +37,14 @@ Index of core concepts and theory in computational modelling and simulation.
 - [[epidemic-intervention]] — actions that reduce transmission, and how to model them | added: 2026-08-06
 - [[null-model]] — a baseline with no structure, so patterns are attributable | added: 2026-08-06
 - [[model-extension]] — start basic, add one element at a time | added: 2026-08-06
+- [[model-analysis]] — studying a model to understand it, and using it on the problem | added: 2026-08-16
+- [[modelling-for-science]] — the inductive approach, with hypotheses as agent behaviours | added: 2026-08-16
+- [[modelling-for-policy]] — problem to implementation, with the model supplying projections | added: 2026-08-16
+- [[summary-statistic]] — compressing simulation output without destroying it | added: 2026-08-16
+- [[outbreak-summary-measures]] — final size, peak size, peak timing | added: 2026-08-16
+- [[bimodal-distribution]] — two regimes, and why the mean falls between them | added: 2026-08-16
+- [[stochastic-fadeout]] — outbreaks dying out by chance despite a high reproduction number | added: 2026-08-16
+- [[reproduction-number]] — secondary cases per case, and the threshold at one | added: 2026-08-16
+- [[herd-immunity-threshold]] — the vaccination coverage an outbreak cannot survive | added: 2026-08-16
+- [[deterministic-model]] — one outcome per parameter set, and what that costs | added: 2026-08-16
+- [[difference-equation]] — the next state as a function of the current one | added: 2026-08-16

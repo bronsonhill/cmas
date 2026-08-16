@@ -21,6 +21,14 @@ infectious period. That product is set by the per-contact infection probability 
 $\gamma$ — easily transmitted, slow to recover — is the parameter combination the lecture
 identified as producing exponential growth and a large simultaneous infectious pool.
 
+Week 3 gives that product a name and a formula. The [[reproduction-number]] $R_0 =
+\beta/\gamma$ is the average number of secondary infections per case in a fully susceptible
+population, and $R > 1$ is precisely the condition for exponential growth to be possible.
+Below one the outbreak dies out. Above one it *may* take off, because early transmission is
+stochastic and a chain can fail by chance before establishing
+([[stochastic-fadeout]]) — which is why the growth regime is a possibility rather than a
+guarantee.
+
 Growth stops being exponential for one of two reasons. The susceptible pool depletes, since
 the model is finite and each infection removes a potential future host, which is what bends
 the cumulative curve into its characteristic flattening shape. Or an
@@ -49,8 +57,13 @@ has a structural problem, not a calibration problem
 - [[epidemic-intervention]] — the mechanism for breaking out of the regime
 - [[tipping-point]] — a related qualitative change in system behaviour
 - [[sars-2003-outbreak]], [[covid-19-pandemic]] — the contrasting cases
+- [[reproduction-number]] — the threshold condition for the regime
+- [[stochastic-fadeout]] — why $R > 1$ does not guarantee growth
+- [[difference-equation]] — the equations from which the growth condition is derived
 
 ## Sources
 
 - [[w02b-modelling-disease-spread]] — the SARS-versus-COVID curve comparison and the
   high-$q$, low-$\gamma$ parameter reasoning.
+- [[w03b-reproduction-number]] — $R_0 = \beta/\gamma$ as the condition separating growth
+  from extinction, and the generation diagrams showing the branching cascade.

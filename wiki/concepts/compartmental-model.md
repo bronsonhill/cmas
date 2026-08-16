@@ -32,6 +32,13 @@ zombie exercise made this concrete by splitting "removed" into two compartments 
 natural causes, and destroyed after reanimating — because they behave differently: one can
 still become a zombie and the other cannot ([[zombie-apocalypse-model-design]]).
 
+Week 3b makes the aggregate side concrete rather than gestured at. Each arrow becomes a term
+appearing twice with opposite signs — $\beta S I$ leaving $S$ and entering $I$, $\gamma I$
+leaving $I$ and entering $R$ — which is what conserves the total population. Written as a
+[[difference-equation]] system or its continuous-time counterpart, the model becomes
+tractable analytically, and that is where $R_0 = \beta/\gamma$ and the vaccination coverage
+threshold come from ([[deterministic-model]], [[reproduction-number]]).
+
 ## Why it matters
 
 Compartmental structure is the vocabulary for talking about disease-model extensions. SEIR
@@ -40,6 +47,12 @@ susceptible, and adding a dead state distinguishes recovery from mortality. Each
 change to the compartment diagram before it is a change to any code, which is exactly the
 level at which the [[odd-protocol]] wants the model described.
 
+Interventions are expressed the same way. Vaccination in its simplest form is an arrow from
+$S$ directly to $R$, bypassing $I$ — a new flow rather than a changed rate
+([[herd-immunity-threshold]]). Representing an imperfect vaccine instead requires a new
+compartment with a reduced infection probability, which is a structural change and a larger
+commitment.
+
 ## Relationships
 
 - [[sir-model]] — the specific instance taught
@@ -47,9 +60,15 @@ level at which the [[odd-protocol]] wants the model described.
 - [[model-extension]] — adding compartments as the standard extension route
 - [[model-structure]] — compartments are state-variable values
 - [[compartmental-vs-agent-based]] — the two readings of the diagram compared in full
+- [[difference-equation]] — how the flows are written down
+- [[deterministic-model]] — the classical form of a compartmental model
+- [[herd-immunity-threshold]] — vaccination as an added flow
 
 ## Sources
 
 - [[w02b-modelling-disease-spread]] — notes that the compartments originated as population
   fractions with flows between them, and that the same diagram serves for an individual
   agent's state sequence in an ABM.
+- [[w03b-reproduction-number]] — gives the aggregate formulation in full, as difference and
+  differential equations over population fractions, and models vaccination as an $S \to R$
+  flow.

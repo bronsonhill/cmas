@@ -20,3 +20,7 @@ Index of agents, actors, and objects modelled in computational simulations.
 - [[sars-2003-outbreak]] — the contained outbreak | added: 2026-08-06
 - [[covid-19-pandemic]] — the uncontained one | added: 2026-08-06
 - [[doherty-institute]] — built the ABMs behind Australia's COVID-19 response | added: 2026-08-06
+- [[schelling-segregation-model]] — mild preferences producing strong segregation | added: 2026-08-16
+- [[thomas-schelling]] — its author | added: 2026-08-16
+- [[influenza-antiviral-stockpile-model]] — the Week 3 worked policy-modelling case | added: 2026-08-16
+- [[netlogo-hiv-model]] — Models Library model suggested for assignment extension ideas | added: 2026-08-16

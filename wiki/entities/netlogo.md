@@ -24,6 +24,10 @@ NetLogo is a high-level, widely used programming environment and language for bu
 - Core modelling constructs covered in tutorials: defining agents, defining the
   environment, and specifying agent behaviours.
 - Can be driven from Python; [[mesa]] is the optional alternative for very large models.
+- The model library also supplies the [[schelling-segregation-model]], demonstrated live in
+  Week 3a, and the [[netlogo-hiv-model]] under Biology, recommended for assignment extension
+  ideas. Library models carry an Info tab describing the model in plain language alongside
+  the code.
 
 ## Relevance to CMAS
 
@@ -37,3 +41,6 @@ Installing it before the first tutorial is a stated prerequisite.
   required before the first tutorial; the Flocking model was demonstrated live.
 - [[w01b-modelling-cycle]] — recommends the online NetLogo tutorials at
   `https://ccl.northwestern.edu/netlogo/docs/`.
+- [[w03a-analysing-models]] — the segregation model demonstrated live from the library.
+- [[w03b-reproduction-number]] — points at the Models Library search and the HIV model's
+  Info tab as a source of extension ideas.
