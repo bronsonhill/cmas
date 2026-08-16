@@ -36,4 +36,5 @@ syllabus alongside [[agent-based-model|ABM]] mechanics.
 
 - [[w01a-introduction]] — self-introduction and subject-staff slide.
 - [[w01b-modelling-cycle]], [[w02a-describing-models]],
-  [[w02b-modelling-disease-spread]] — lecturer.
+  [[w02b-modelling-disease-spread]], [[w03a-analysing-models]],
+  [[w03b-reproduction-number]] — lecturer.

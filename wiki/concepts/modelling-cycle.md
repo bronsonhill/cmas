@@ -52,6 +52,19 @@ its plausibility, and it establishes that a first model is *expected* to be wron
 coursework it is also the implicit structure of both projects — question, design,
 implementation, analysis, report.
 
+Week 3 develops step 5 into a practice with its own structure ([[model-analysis]]). Analysis
+means both establishing that the model is correct and using it on the problem, and getting
+there requires moving from playing with parameters to designing experiments that vary
+parameters, initial conditions and seeds systematically from a baseline. The same week also
+distinguishes two purposes the cycle can serve — [[modelling-for-science]], which tests
+whether hypothesised individual behaviours reproduce an observed pattern, and
+[[modelling-for-policy]], which assumes a validated model and uses it to project the effects
+of candidate interventions.
+
+Where ODD helps in the cycle was also revisited: primarily at choosing model structure,
+implementing, and communicating, rather than at formulating the question, since the question
+and hypotheses precede writing the description.
+
 The [[odd-protocol]] occupies the transition from step 2 to step 3: it is the mechanism
 for turning brainstormed hypotheses into a formal written model structure. Week 2 also
 supplies the lecturer's reasons for the cycle being iterative — the question may need
@@ -71,6 +84,8 @@ uncertainty analysis in weeks 10–12.
 - [[model]], [[simulation]], [[agent-based-model]] — what is being built
 - [[stochasticity]] — verification of a stochastic model requires replication
 - [[truffle-foraging-model-design]] — a worked pass through the early steps
+- [[model-analysis]] — step 5 in detail
+- [[modelling-for-science]], [[modelling-for-policy]] — the two purposes the cycle serves
 
 ## Sources
 
