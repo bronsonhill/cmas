@@ -183,6 +183,12 @@ $v \ge 1 - 1/R_0$ ([[herd-immunity-threshold]]).
 - The vaccination coverage needed rises steeply with $R_0$, which is why highly
   transmissible diseases such as measles are the first to return when coverage slips.
 
+## Digest
+
+- [[w03b-reproduction-number-digest]] — full layered digest of this lecture: the equations and
+  four disease profiles reproduced, the herd immunity chart tabulated, the zombie discussion
+  reconstructed, and a recall layer.
+
 ## Connections
 
 - Direct continuation of [[w03a-analysing-models]]: that lecture showed the fadeout mode in
