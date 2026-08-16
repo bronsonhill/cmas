@@ -134,3 +134,20 @@
 - **Anchors:** slide numbers only, as above.
 - **Note:** the slide/recording discrepancies recorded on the source page are reproduced as a
   table at the top of the digest, since three of them are exam-relevant numbers.- **Lint:** 84 pages scanned, 0 issues. Report at `wiki/lint-reports/2026-08-16.md`.
+
+## [2026-08-16] cue-cards | Week 3 lectures
+
+- **New material page:** week-03-cue-cards (38 cards: 15 elaborative interrogation,
+  7 mechanism, 6 contrast, 10 failure-mode)
+- **Derived from:** sources/w03a-analysing-models, sources/w03b-reproduction-number, their
+  digests, and the Week 3 concept pages (reproduction-number, herd-immunity-threshold,
+  deterministic-model, difference-equation, stochastic-fadeout, bimodal-distribution,
+  summary-statistic, outbreak-summary-measures, model-analysis, modelling-for-science,
+  modelling-for-policy)
+- **Updated pages:** materials/index
+- **Anki export:** `wiki/materials/week-03-cue-cards.anki.tsv` (gitignored, regenerable)
+- **Note:** deliberately larger than the 16-card Week 1 and Week 2 decks — Week 3b is the
+  subject's only quantitative lecture, so formulas, derivations and interpretations each
+  need separate cards. One card covers the slide/recording discrepancies themselves, since
+  three of the four are examinable numbers.
+- **Lint:** 85 pages scanned, 0 issues.
