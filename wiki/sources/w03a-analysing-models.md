@@ -174,6 +174,11 @@ non-trivial fraction of runs still produce no outbreak at all, whatever the popu
 - The lecture's stated takeaway: once you have chosen the data points you care about, do not
   compress them blindly — check the shape of their distribution first.
 
+## Digest
+
+- [[w03a-analysing-models-digest]] — full layered digest of this lecture: slide-anchored
+  spine, the three histograms reproduced, transcript-only material marked, and a recall layer.
+
 ## Connections
 
 - Continues [[w02b-modelling-disease-spread]], reusing the same SIR model but analysing it

@@ -116,3 +116,21 @@
 
 - **Result:** 81 pages scanned, 0 issues. No dangling links, orphans or index drift.
 - **Report:** `wiki/lint-reports/2026-08-16.md`
+
+## [2026-08-16] digest | w03a — Analysing Models
+
+- **Digest page:** `wiki/materials/w03a-analysing-models-digest.md`
+- **Built from:** sources/w03a-analysing-models (19-slide deck + recording transcript)
+- **Updated pages:** sources/w03a-analysing-models (digest backlink), materials/index
+- **Anchors:** slide numbers only. The supplied transcript carries no time markers and the
+  source page holds a Canvas course link rather than a recording URL, so timestamp anchors
+  could not be produced.
+
+## [2026-08-16] digest | w03b — The Reproduction Number and Deterministic Models
+
+- **Digest page:** `wiki/materials/w03b-reproduction-number-digest.md`
+- **Built from:** sources/w03b-reproduction-number (23-slide deck + recording transcript)
+- **Updated pages:** sources/w03b-reproduction-number (digest backlink), materials/index
+- **Anchors:** slide numbers only, as above.
+- **Note:** the slide/recording discrepancies recorded on the source page are reproduced as a
+  table at the top of the digest, since three of them are exam-relevant numbers.- **Lint:** 84 pages scanned, 0 issues. Report at `wiki/lint-reports/2026-08-16.md`.
