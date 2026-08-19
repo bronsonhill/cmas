@@ -77,3 +77,6 @@ computed.
 - [[w03a-analysing-models]] — sets out the six-step pipeline, notes that policy models are
   typically already validated, works through the antiviral stockpile case, and lists the
   COVID-19 interventions and success metrics raised in class.
+- [[epstein-2008-why-model]] — models do not remove the need for judgment; by exposing
+  tradeoffs, uncertainties and sensitivities they "discipline the dialogue" and make
+  unavoidable judgments more considered.

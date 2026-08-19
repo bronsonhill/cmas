@@ -51,3 +51,6 @@ at which a [[complex-system]] model can genuinely be right.
 - [[w01b-modelling-cycle]] — named in response to a student suggestion about using
   historical data; flagged as end-of-subject material, with "cycles with spikes" as the
   illustration of pattern rather than value matching.
+- [[grimm-2020-odd-second-update]] — moves patterns into ODD element 1 so they are stated
+  before the model structure chosen on their basis; warns that reporting only the patterns a
+  model reproduces, and omitting the ones it failed to, resembles HARKing.

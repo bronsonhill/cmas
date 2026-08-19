@@ -31,3 +31,5 @@ language rather than code.
 
 - [[w02a-describing-models]] — introduces Grimm as the protocol's author and gives the 2006
   / 2010 / 2020 revision history.
+- [[grimm-2020-odd-second-update]] — lead author of the second update, which diagnoses how
+  ODD has been misused in practice and adds guidance rather than changing the seven elements.

@@ -58,3 +58,5 @@ or "wrong" in the abstract, only adequate or inadequate for its purpose.
   the disease-model and Oroville Dam examples.
 - [[w01b-modelling-cycle]] — adds that models are necessarily *simpler* than the system
   ([[abstraction]]), developed through the models-of-the-Earth sequence.
+- [[epstein-2008-why-model]] — the implicit/explicit distinction: anyone projecting how a
+  social dynamic will unfold is already running a model, just an unwritten one.

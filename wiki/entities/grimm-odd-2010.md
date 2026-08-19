@@ -31,3 +31,5 @@ to later in the subject, so the paper is the fuller treatment of that section.
 
 - [[w02a-describing-models]] — set as this week's reading in the next-steps slide; the
   lecture's walk-through of the protocol follows this version's structure.
+- [[grimm-2020-odd-second-update]] — the 2020 second update; supersedes this version without
+  changing the seven elements, and is the one to cite for current practice.

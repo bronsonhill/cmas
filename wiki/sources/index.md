@@ -12,3 +12,5 @@ Index of external learning resources. Because University of Melbourne materials 
 - [[w03a-analysing-models]] — COMP90083 Week 3a lecture: analysing models, science vs policy, and summarising stochastic output | added: 2026-08-16
 - [[w03b-reproduction-number]] — COMP90083 Week 3b lecture: the reproduction number, deterministic SIR, and vaccination thresholds | added: 2026-08-16
 - [[a1-project-specification]] — COMP90083 Assignment 1 brief: extend a NetLogo SIR model to answer a research question, reported via ODD | added: 2026-08-19
+- [[epstein-2008-why-model]] — Epstein's *Why Model?* essay: sixteen reasons to model other than prediction | added: 2026-08-19
+- [[grimm-2020-odd-second-update]] — Grimm et al. 2020: the current ODD protocol, its failure modes, and summary/nested/delta ODDs | added: 2026-08-19

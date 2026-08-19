@@ -49,3 +49,6 @@ Index of core concepts and theory in computational modelling and simulation.
 - [[deterministic-model]] — one outcome per parameter set, and what that costs | added: 2026-08-16
 - [[difference-equation]] — the next state as a function of the current one | added: 2026-08-16
 - [[sensitivity-analysis]] — varying one parameter to see how much the conclusion depends on it | added: 2026-08-19
+- [[explanation-vs-prediction]] — explaining a phenomenon and forecasting it are different achievements | added: 2026-08-19
+- [[generative-explanation]] — if you didn't grow it, you didn't explain it | added: 2026-08-19
+- [[trace-documentation]] — documenting the process around the model, not the model | added: 2026-08-19
