@@ -83,3 +83,5 @@ unstructured brainstorming into a formal representation.
   truffle-foraging model, and argues for standardised description.
 - [[w02b-modelling-disease-spread]] — applies the Overview section to the zombie apocalypse
   design exercise.
+- [[a1-project-specification]] — required as the organising structure of the assignment
+  report, for a technical but non-specialist audience.

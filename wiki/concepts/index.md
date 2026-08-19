@@ -48,3 +48,4 @@ Index of core concepts and theory in computational modelling and simulation.
 - [[herd-immunity-threshold]] — the vaccination coverage an outbreak cannot survive | added: 2026-08-16
 - [[deterministic-model]] — one outcome per parameter set, and what that costs | added: 2026-08-16
 - [[difference-equation]] — the next state as a function of the current one | added: 2026-08-16
+- [[sensitivity-analysis]] — varying one parameter to see how much the conclusion depends on it | added: 2026-08-19
