@@ -57,3 +57,5 @@ question, and it is where marks are most readily lost.
   mushroom/truffle narrowing as the demonstration.
 - [[w02a-describing-models]] — the scope-creep argument for defining the question first,
   and the Assignment 1 requirement to state a research question.
+- [[a1-project-specification]] — task 1 of the assignment; the question must be unanswerable
+  by baseline SIR, which is what forces a structural extension.

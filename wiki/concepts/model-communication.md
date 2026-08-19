@@ -54,3 +54,5 @@ results were communicated in a form decision-makers could use.
   multidisciplinary argument for plain-language description.
 - [[w02a-describing-models]] — the ODD protocol as the standard form; the argument that
   code cannot be handed to a non-programming multidisciplinary audience.
+- [[a1-project-specification]] — names the audience explicitly (technical but
+  non-specialist) and allocates marks to it as criterion C5.

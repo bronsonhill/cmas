@@ -151,3 +151,15 @@
   need separate cards. One card covers the slide/recording discrepancies themselves, since
   three of the four are examinable numbers.
 - **Lint:** 85 pages scanned, 0 issues.
+
+## [2026-08-19] ingest | Assignment 1: Project Specification
+
+- **Source page:** `wiki/sources/a1-project-specification.md`
+- **New concept pages:** sensitivity-analysis
+- **New entity pages:** none
+- **Updated pages:** concepts/model-extension, concepts/research-question,
+  concepts/odd-protocol, concepts/model-communication, sources/index, concepts/index
+- **Note:** the written brief for the assignment [[w02a-describing-models]] briefed verbally.
+  Recorded under `link-only` — no text from the PDF is reproduced, and the marking criteria
+  are summarised as weights rather than quoted descriptions.
+- **Lint:** 87 pages scanned, 0 issues. Report at `wiki/lint-reports/2026-08-19.md`.

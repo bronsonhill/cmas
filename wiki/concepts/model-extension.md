@@ -57,3 +57,6 @@ is explicit that comprehensiveness is not the target ([[w02a-describing-models]]
   discussion identifying SIR's weaknesses as extension candidates.
 - [[w02a-describing-models]] — the Assignment 1 framing of one extension motivated by a
   research question.
+- [[a1-project-specification]] — the assessment task built on this heuristic; defines the
+  structural test an extension has to pass (new process or state variable, not a new
+  parameter value).
