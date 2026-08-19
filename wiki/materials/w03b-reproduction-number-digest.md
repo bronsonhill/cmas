@@ -304,8 +304,9 @@ curve is one of those trajectories with the variation and the fadeout mode remov
 Rather than describing how a system changes in discrete time steps, they describe how a
 system changes continuously:
 
-$$\frac{dS}{dt} = -\beta S I, \qquad \frac{dI}{dt} = \beta S I - \gamma I, \qquad
-\frac{dR}{dt} = \gamma I$$
+$$\frac{dS}{dt} = -\beta S I$$
+$$\frac{dI}{dt} = \beta S I - \gamma I$$
+$$\frac{dR}{dt} = \gamma I$$
 
 The slide's note: models often describe the **fraction** of the population in each
 compartment; i.e. $S + I + R = 1$.
