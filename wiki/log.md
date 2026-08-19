@@ -163,3 +163,20 @@
   Recorded under `link-only` — no text from the PDF is reproduced, and the marking criteria
   are summarised as weights rather than quoted descriptions.
 - **Lint:** 87 pages scanned, 0 issues. Report at `wiki/lint-reports/2026-08-19.md`.
+
+## [2026-08-19] ingest | Epstein (2008) "Why Model?" and Grimm et al. (2020) ODD second update
+
+- **Source pages:** `wiki/sources/epstein-2008-why-model.md`,
+  `wiki/sources/grimm-2020-odd-second-update.md`
+- **New concept pages:** explanation-vs-prediction, generative-explanation, trace-documentation
+- **New entity pages:** joshua-epstein, sugarscape
+- **Updated pages:** concepts/odd-protocol (new "What the 2020 update changed" section),
+  concepts/pattern-oriented-modelling, concepts/sensitivity-analysis, concepts/model,
+  concepts/modelling-for-policy, concepts/reproducibility, concepts/model-communication,
+  concepts/emergence, entities/volker-grimm, entities/grimm-odd-2010, sources/index,
+  concepts/index, entities/index
+- **Note:** both papers are open-access JASSS articles, so they are summarised more fully than
+  copyright course material would be; still no verbatim text beyond short attributed phrases.
+- **Discrepancy recorded:** the Week 2a lecture teaches ten design concepts; the 2020 protocol
+  lists eleven (learning and prediction separate). Flagged on `concepts/odd-protocol`.
+- **Lint:** 95 pages scanned, 0 issues. Report at `wiki/lint-reports/2026-08-19.md`.

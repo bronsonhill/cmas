@@ -67,6 +67,28 @@ The protocol also sits at a specific point in the [[modelling-cycle]], between s
 (assemble hypotheses) and step 3 (choose model structure). It is the mechanism that turns
 unstructured brainstorming into a formal representation.
 
+## What the 2020 update changed
+
+The current version of the protocol is the second update, [[grimm-2020-odd-second-update]].
+The seven elements are unchanged; three things around them are not, and the differences
+matter when reading this page against the paper:
+
+- Element 1 is **"Purpose and patterns"**. The patterns used to design and evaluate the model
+  are stated before the entities and state variables, because those components are chosen on
+  the basis of the patterns ([[pattern-oriented-modelling]]).
+- The design concepts number **eleven**, not ten — learning and prediction are listed
+  separately. The lecture treatment merges them. Concepts that do not apply may be left out.
+- Every element gains an optional **"Rationale"** subsection: why the design decision was
+  made, not just what it was. Longer justification belongs in a [[trace-documentation]]
+  document.
+
+The update also supplies formats for the situations a plain ODD handles badly: a **summary
+ODD** for the main text of an article with the full description in a supplement, a **nested
+ODD** for submodels that need ten or more pages, and a **delta-ODD** describing only what
+changed from a model being re-used. The recurring failure it diagnoses is describing the
+mental model rather than the program — "describe what the program does, not what you think
+the model does".
+
 ## Relationships
 
 - [[model-structure]] — the informal version of what ODD formalises
@@ -85,3 +107,6 @@ unstructured brainstorming into a formal representation.
   design exercise.
 - [[a1-project-specification]] — required as the organising structure of the assignment
   report, for a technical but non-specialist audience.
+- [[grimm-2020-odd-second-update]] — the current version of the protocol; renames element 1,
+  separates learning from prediction, adds rationale subsections, and supplies summary,
+  nested and delta-ODD formats.

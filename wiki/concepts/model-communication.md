@@ -56,3 +56,6 @@ results were communicated in a form decision-makers could use.
   code cannot be handed to a non-programming multidisciplinary audience.
 - [[a1-project-specification]] — names the audience explicitly (technical but
   non-specialist) and allocates marks to it as criterion C5.
+- [[grimm-2020-odd-second-update]] — why ODDs fail as communication in practice: length,
+  descriptions of the modeller's mental model rather than the program, and no route from the
+  description to the code.

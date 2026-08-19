@@ -51,3 +51,6 @@ author has left.
 
 - [[w02a-describing-models]] — the replication crisis in medicine, poor experimental practice
   in optimisation research, and the argument that code is not a substitute for description.
+- [[grimm-2020-odd-second-update]] — frames ODD as a response to the replication crisis, and
+  argues that written descriptions must link to model code because code is the most
+  authoritative description a model has.

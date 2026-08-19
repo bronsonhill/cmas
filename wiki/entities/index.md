@@ -24,3 +24,5 @@ Index of agents, actors, and objects modelled in computational simulations.
 - [[thomas-schelling]] — its author | added: 2026-08-16
 - [[influenza-antiviral-stockpile-model]] — the Week 3 worked policy-modelling case | added: 2026-08-16
 - [[netlogo-hiv-model]] — Models Library model suggested for assignment extension ideas | added: 2026-08-16
+- [[joshua-epstein]] — founder of agent-based social simulation; author of *Why Model?* | added: 2026-08-19
+- [[sugarscape]] — Epstein and Axtell's artificial society, the reference case for generative explanation | added: 2026-08-19

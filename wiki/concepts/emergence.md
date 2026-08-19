@@ -45,3 +45,5 @@ the modeller's job partly one of *observation*: run the model and see what patte
 
 - [[w01a-introduction]] — demonstrates emergence via murmurations and the NetLogo Flocking
   model; explicit that clustering and common heading were never specified as rules.
+- [[epstein-2008-why-model]] — emergence as the basis of generative explanation
+  ([[generative-explanation]]): macroscopic regularities grown from local agent rules.

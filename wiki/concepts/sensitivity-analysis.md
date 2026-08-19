@@ -49,3 +49,6 @@ using it, and the response to a parameter change is one of the cheapest ways to 
 
 - [[a1-project-specification]] — requires a comparison across two values of one key parameter
   of the model extension, framed as checking how sensitive results are to design choices.
+- [[epstein-2008-why-model]] — names parameter sweeps as a decisive advantage of explicit
+  over implicit models: they identify salient uncertainties, regions of robustness and
+  important thresholds.
