@@ -118,3 +118,8 @@ choices.
 
 `See also:` [[odd-protocol]] · [[epstein-2008-why-model]] · [[model-extension]] ·
 [[pattern-oriented-modelling]] · [[reproducibility]]
+
+## Digest
+
+- [[grimm-2020-odd-second-update-digest]] — full layered digest: the six diagnosed issues,
+  the summary/nested/delta-ODD recipes, and a recall layer.

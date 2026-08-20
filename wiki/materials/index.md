@@ -13,3 +13,5 @@ Index of worked examples, notes, and derived study material.
 - [[w03a-analysing-models-digest]] — layered digest of the Week 3a lecture, readable instead of the original | added: 2026-08-16
 - [[w03b-reproduction-number-digest]] — layered digest of the Week 3b lecture, readable instead of the original | added: 2026-08-16
 - [[week-03-cue-cards]] — comprehensive spaced-repetition deck for both Week 3 lectures (38 cards) | added: 2026-08-16
+- [[epstein-why-model-digest]] — layered digest of Epstein's *Why Model?*, readable instead of the original | added: 2026-08-20
+- [[grimm-2020-odd-second-update-digest]] — layered digest of the 2020 ODD protocol update, readable instead of the original | added: 2026-08-20

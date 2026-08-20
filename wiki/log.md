@@ -180,3 +180,16 @@
 - **Discrepancy recorded:** the Week 2a lecture teaches ten design concepts; the 2020 protocol
   lists eleven (learning and prediction separate). Flagged on `concepts/odd-protocol`.
 - **Lint:** 95 pages scanned, 0 issues. Report at `wiki/lint-reports/2026-08-19.md`.
+
+## [2026-08-20] digest | Epstein (2008) and Grimm et al. (2020)
+
+- **New material pages:** epstein-why-model-digest, grimm-2020-odd-second-update-digest
+- **Built from:** sources/epstein-2008-why-model (JASSS 11(4) 12, 17 paragraphs),
+  sources/grimm-2020-odd-second-update (JASSS 23(2) 7, sections 1-6)
+- **Updated pages:** both source pages (digest backlinks), materials/index
+- **Anchors:** JASSS paragraph numbers, not timestamps — both sources are papers, so there is
+  no recording to align against and no transcript-only layer to surface.
+- **Note:** Epstein's sixteen reasons and Grimm's summary-ODD recipe are reproduced in full
+  rather than compressed; they are the parts a reader would otherwise go back to the original
+  for. The ten-vs-eleven design concepts discrepancy against the Week 2a lecture is called out
+  in both the Grimm digest and on concepts/odd-protocol.- **Lint:** 97 pages scanned, 0 issues. Report at `wiki/lint-reports/2026-08-20.md`.
