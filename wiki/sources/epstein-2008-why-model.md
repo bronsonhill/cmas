@@ -101,3 +101,8 @@ Assignment 1 asks students to produce ([[a1-project-specification]]).
 
 `See also:` [[grimm-2020-odd-second-update]] · [[model]] · [[abstraction]] ·
 [[modelling-for-science]] · [[null-model]]
+
+## Digest
+
+- [[epstein-why-model-digest]] — full layered digest of this essay: the sixteen reasons
+  reproduced in full, the explanation/prediction argument, and a recall layer.
