@@ -52,3 +52,13 @@ Index of core concepts and theory in computational modelling and simulation.
 - [[explanation-vs-prediction]] — explaining a phenomenon and forecasting it are different achievements | added: 2026-08-19
 - [[generative-explanation]] — if you didn't grow it, you didn't explain it | added: 2026-08-19
 - [[trace-documentation]] — documenting the process around the model, not the model | added: 2026-08-19
+- [[self-organisation]] — spontaneous formation of macroscopic structure over time | added: 2026-08-23
+- [[decentralisation]] — distribution, bounded knowledge, and parallelism, with no single controller | added: 2026-08-23
+- [[feedback]] — positive amplification and negative dampening of system fluctuations | added: 2026-08-23
+- [[chaos]] — deterministic, aperiodic, initial-condition-sensitive behaviour | added: 2026-08-23
+- [[logistic-map]] — minimal single-equation demonstration of deterministic chaos | added: 2026-08-23
+- [[cellular-automaton]] — cells updated by local rules over discrete time and space | added: 2026-08-23
+- [[game-of-life]] — Conway's 2D cellular automaton, its rules and emergent patterns | added: 2026-08-23
+- [[wolfram-classes]] — the four-way classification of cellular automaton behaviour | added: 2026-08-23
+- [[turing-completeness]] — capable of universal computation | added: 2026-08-23
+- [[lotka-volterra-model]] — the classical continuous-time predator-prey model | added: 2026-08-23

@@ -26,3 +26,11 @@ Index of agents, actors, and objects modelled in computational simulations.
 - [[netlogo-hiv-model]] — Models Library model suggested for assignment extension ideas | added: 2026-08-16
 - [[joshua-epstein]] — founder of agent-based social simulation; author of *Why Model?* | added: 2026-08-19
 - [[sugarscape]] — Epstein and Axtell's artificial society, the reference case for generative explanation | added: 2026-08-19
+- [[craig-reynolds]] — creator of the boids flocking model | added: 2026-08-23
+- [[john-von-neumann]] — co-developer of cellular automata; self-replication motivation | added: 2026-08-23
+- [[stanislaw-ulam]] — co-developer of cellular automata; crystal-growth motivation | added: 2026-08-23
+- [[conways-game-of-life]] — Conway's 2D cellular automaton | added: 2026-08-23
+- [[stephen-wolfram]] — proposed the four-class CA behaviour classification | added: 2026-08-23
+- [[alfred-lotka]] — co-formulator of the Lotka-Volterra predator-prey model | added: 2026-08-23
+- [[vito-volterra]] — co-formulator of the Lotka-Volterra predator-prey model | added: 2026-08-23
+- [[hiroki-sayama]] — author of the subject's complex-systems textbook | added: 2026-08-23

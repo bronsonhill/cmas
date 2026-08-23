@@ -193,3 +193,67 @@
   rather than compressed; they are the parts a reader would otherwise go back to the original
   for. The ten-vs-eleven design concepts discrepancy against the Week 2a lecture is called out
   in both the Grimm digest and on concepts/odd-protocol.- **Lint:** 97 pages scanned, 0 issues. Report at `wiki/lint-reports/2026-08-20.md`.
+
+## [2026-08-23] ingest | Week 4a: Complex Systems & Emergence
+
+- **Source page:** `wiki/sources/w04a-complex-systems-and-emergence.md`
+- **New concept pages:** self-organisation, decentralisation, feedback, chaos
+- **New entity pages:** craig-reynolds
+- **Updated pages:** concepts/complex-system, concepts/emergence, concepts/flocking,
+  entities/boids, entities/andres-munoz, sources/index, concepts/index, entities/index
+
+## [2026-08-23] ingest | Week 4b: 2D Cellular Automata
+
+- **Source page:** `wiki/sources/w04b-2d-cellular-automata.md`
+- **New concept pages:** cellular-automaton, game-of-life, wolfram-classes,
+  turing-completeness, lotka-volterra-model
+- **New entity pages:** john-von-neumann, stanislaw-ulam, conways-game-of-life,
+  stephen-wolfram, alfred-lotka, vito-volterra
+- **Updated pages:** concepts/complex-system, concepts/emergence, entities/andres-munoz,
+  sources/index, concepts/index, entities/index
+
+## [2026-08-23] ingest | Sayama (2015), Introduction to the Modeling and Analysis of Complex Systems — Chapter 1
+
+- **Source page:** `wiki/sources/sayama-2015-modeling-and-analysis-of-complex-systems-ch1.md`
+- **New concept pages:** none (concepts already created from the Week 4a/4b lectures)
+- **New entity pages:** hiroki-sayama
+- **Updated pages:** concepts/complex-system, concepts/emergence, sources/index,
+  entities/index
+- **Note:** open-access CC BY-NC-SA textbook (Open SUNY / Milne Publishing), summarised
+  more fully than copyright course material would be, consistent with treatment of the
+  Epstein and Grimm open-access papers. Only Chapter 1 was read; the rest of the book is
+  out of scope for this ingest.
+
+## [2026-08-23] lint
+
+- **Lint:** 118 pages scanned, 0 issues. Report at `wiki/lint-reports/2026-08-23.md`.
+
+## [2026-08-23] digest | Week 4a, Week 4b, Sayama Ch. 1
+
+- **Digest pages:** `wiki/materials/w04a-complex-systems-and-emergence-digest.md`,
+  `wiki/materials/w04b-2d-cellular-automata-digest.md`,
+  `wiki/materials/sayama-2015-modeling-and-analysis-of-complex-systems-ch1-digest.md`
+- **Updated pages:** `wiki/sources/w04a-complex-systems-and-emergence.md`,
+  `wiki/sources/w04b-2d-cellular-automata.md`,
+  `wiki/sources/sayama-2015-modeling-and-analysis-of-complex-systems-ch1.md` (digest
+  back-links added), `wiki/materials/index.md`
+
+## [2026-08-23] cue-cards | Week 4
+
+- **Deck:** `wiki/materials/week-04-cue-cards.md` (+ `.anki.tsv` export, 28 cards)
+- **Source pages:** `wiki/sources/w04a-complex-systems-and-emergence.md`,
+  `wiki/sources/w04b-2d-cellular-automata.md`,
+  `wiki/sources/sayama-2015-modeling-and-analysis-of-complex-systems-ch1.md`
+- **Updated pages:** `wiki/materials/index.md`
+- **Note:** balanced technical/mechanism cards (CA rule numbering, Wolfram-class
+  identification, Life's update algorithm, Lotka-Volterra ODEs and their discrete
+  reformulation) against conceptual cards (emergence vs self-organisation,
+  decentralisation, complex-system classification) per explicit user requirement.
+
+## [2026-08-23] lint | combined pass after digests and cue-cards
+
+- **Lint:** 1 dangling link found (`materials/week-04-cue-cards` → `[[logistic-map]]`),
+  fixed by creating `wiki/concepts/logistic-map.md` (promoted from an inline mention on
+  the w04a source page to a full concept page) and linking it from
+  `wiki/sources/w04a-complex-systems-and-emergence.md` and `wiki/concepts/index.md`.
+  Re-run: 124 pages scanned, 0 issues. Report at `wiki/lint-reports/2026-08-23.md`.
