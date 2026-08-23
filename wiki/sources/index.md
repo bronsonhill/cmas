@@ -14,3 +14,6 @@ Index of external learning resources. Because University of Melbourne materials 
 - [[a1-project-specification]] — COMP90083 Assignment 1 brief: extend a NetLogo SIR model to answer a research question, reported via ODD | added: 2026-08-19
 - [[epstein-2008-why-model]] — Epstein's *Why Model?* essay: sixteen reasons to model other than prediction | added: 2026-08-19
 - [[grimm-2020-odd-second-update]] — Grimm et al. 2020: the current ODD protocol, its failure modes, and summary/nested/delta ODDs | added: 2026-08-19
+- [[w04a-complex-systems-and-emergence]] — COMP90083 Week 4a lecture: complex systems, emergence, decentralisation, feedback, and boids | added: 2026-08-23
+- [[w04b-2d-cellular-automata]] — COMP90083 Week 4b lecture: cellular automata, Conway's Game of Life, and the Lotka-Volterra model | added: 2026-08-23
+- [[sayama-2015-modeling-and-analysis-of-complex-systems-ch1]] — Sayama's open-access textbook, Chapter 1: complex systems defined, emergence vs self-organisation, seven topical clusters | added: 2026-08-23

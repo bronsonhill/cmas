@@ -37,14 +37,27 @@ coordination, no agent with global information, and a rich collective pattern as
 It is also the concrete demonstration that an [[agent-based-model]] models the individual
 in order to observe the population.
 
+## From simulator to science
+
+[[w04a-complex-systems-and-emergence]] reframes flocking as a route to testable science:
+once a research question is posed (what individual-movement assumptions explain the
+emergent characteristics of real flocks?), the model needs outputs comparable to real
+flock/school data — the number of agents with flock-mates, the mean number of flock-mates
+per agent, the mean nearest-neighbour distance, and the standard deviation of heading
+across the population.
+
 ## Relationships
 
 - [[boids]] — the specific model and its origin
 - [[emergence]], [[complex-system]] — what flocking demonstrates
 - [[netlogo]] — the Flocking model ships with NetLogo's model library
 - [[agent-based-model]]
+- [[craig-reynolds]] — the model's author
 
 ## Sources
 
 - [[w01a-introduction]] — starling murmuration video plus a live run of the NetLogo
   Flocking model, with parameters varied in class.
+- [[w04a-complex-systems-and-emergence]] — formalises the boids sensing model and
+  separation/cohesion/alignment rules, and frames flocking outputs as testable model
+  predictions.

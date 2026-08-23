@@ -15,3 +15,7 @@ Index of worked examples, notes, and derived study material.
 - [[week-03-cue-cards]] — comprehensive spaced-repetition deck for both Week 3 lectures (38 cards) | added: 2026-08-16
 - [[epstein-why-model-digest]] — layered digest of Epstein's *Why Model?*, readable instead of the original | added: 2026-08-20
 - [[grimm-2020-odd-second-update-digest]] — layered digest of the 2020 ODD protocol update, readable instead of the original | added: 2026-08-20
+- [[w04a-complex-systems-and-emergence-digest]] — layered digest of the Week 4a lecture, readable instead of the original | added: 2026-08-23
+- [[w04b-2d-cellular-automata-digest]] — layered digest of the Week 4b lecture, readable instead of the original | added: 2026-08-23
+- [[sayama-2015-modeling-and-analysis-of-complex-systems-ch1-digest]] — layered digest of Sayama's Chapter 1, readable instead of the original | added: 2026-08-23
+- [[week-04-cue-cards]] — comprehensive spaced-repetition deck for both Week 4 lectures and Sayama Ch. 1 (28 cards) | added: 2026-08-23

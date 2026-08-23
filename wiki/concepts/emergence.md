@@ -41,9 +41,27 @@ the modeller's job partly one of *observation*: run the model and see what patte
 - [[agent-based-model]] — the modelling method built around it
 - [[tipping-point]] — where emergent regimes change
 
+## Distinguishing emergence from self-organisation
+
+[[w04a-complex-systems-and-emergence]] and
+[[sayama-2015-modeling-and-analysis-of-complex-systems-ch1]] separate two ideas often used
+interchangeably. Emergence is about *scale*: a macroscopic property not simply reducible to
+microscopic rules (Bar-Yam's definition). [[self-organisation]] is about *scale and time
+together*: the dynamical process by which such a macroscopic pattern comes to exist as the
+system evolves. Conway's [[game-of-life|Game of Life]] and [[cellular-automaton|cellular
+automata]] more generally are minimal demonstrations of both — organised structure
+(stable, periodic, and mobile patterns) appearing from nothing but a grid and a handful of
+local counting rules.
+
 ## Sources
 
 - [[w01a-introduction]] — demonstrates emergence via murmurations and the NetLogo Flocking
   model; explicit that clustering and common heading were never specified as rules.
 - [[epstein-2008-why-model]] — emergence as the basis of generative explanation
   ([[generative-explanation]]): macroscopic regularities grown from local agent rules.
+- [[w04a-complex-systems-and-emergence]] — distinguishes emergence from
+  [[self-organisation]]; Sayama's Bar-Yam-derived definition.
+- [[w04b-2d-cellular-automata]] — cellular automata, and especially Conway's Game of Life,
+  as a minimal emergence/self-organisation demonstration.
+- [[sayama-2015-modeling-and-analysis-of-complex-systems-ch1]] — Bar-Yam's definition of
+  emergence, and its distinction from self-organisation.

@@ -34,3 +34,6 @@ to produce collective structure — the founding intuition for agent-based model
 
 - [[w01a-introduction]] — run live in the lecture, with parameters varied and student
   observations of clustering and common heading drawn out.
+- [[w04a-complex-systems-and-emergence]] — formalises the model: attributed to
+  [[craig-reynolds]] (1986/87), with sensing defined by angle and distance, and the three
+  rules — separation, cohesion, alignment — named explicitly.
