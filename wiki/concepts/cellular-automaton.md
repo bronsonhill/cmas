@@ -41,6 +41,17 @@ complete]] rules such as rule 110.
 
 ## Formula
 
+The number of possible rule tables for a CA with $S$ states and a neighbourhood of $N$
+cells (including the cell itself) is
+
+$$S^{S^{N}}$$
+
+There are $S^N$ distinct neighbourhood configurations, and each maps independently to one
+of $S$ outputs. The elementary case $S=2$, $N=3$ gives $2^{2^3}=256$; three states over the
+same neighbourhood already gives $3^{27} \approx 7.6 \times 10^{12}$. The count grows
+doubly exponentially in the neighbourhood size, which is the formal version of the claim
+that very few moving parts generate very large spaces of possible behaviour.
+
 An elementary 1D CA rule can be encoded as an integer by reading its lookup-table outputs
 as a binary number. For rule table 01011010 (outputs for neighbourhoods 000 through 111,
 in order):
@@ -75,3 +86,5 @@ generates macroscopic pattern.
 - [[sayama-2015-modeling-and-analysis-of-complex-systems-ch1]] — names CA as the chapter's
   example model for the pattern-formation topical cluster, credited to von Neumann and
   Ulam, 1940s.
+- [[w05a-sensing]] — the rule-count generalisation $S^{S^N}$, from the Week 4 revision
+  questions.

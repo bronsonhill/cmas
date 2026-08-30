@@ -257,3 +257,28 @@
   the w04a source page to a full concept page) and linking it from
   `wiki/sources/w04a-complex-systems-and-emergence.md` and `wiki/concepts/index.md`.
   Re-run: 124 pages scanned, 0 issues. Report at `wiki/lint-reports/2026-08-23.md`.
+
+## [2026-08-30] ingest | Week 5 — modelling agent behaviour (sensing, adaptation, objectives)
+
+- **Source pages:** `wiki/sources/w05a-sensing.md`,
+  `wiki/sources/w05b-adaptation-and-objectives.md`,
+  `wiki/sources/kennedy-2012-modelling-human-behaviour.md`
+- **New concept pages:** `adaptive-behaviour`, `objective-function`, `agent-learning`,
+  `agent-prediction`, `agent-interaction`, `collectives`, `agent-neighbourhood`,
+  `imperfect-information`, `bounded-rationality`, `rational-choice-theory`,
+  `threshold-rule`, `cognitive-architecture`, `bdi-architecture`, `pecs-framework`,
+  `fast-and-frugal-heuristics`, `social-influence`
+- **New entity pages:** `william-kennedy`, `herbert-simon`, `gerd-gigerenzer`, `soar`,
+  `act-r`, `business-investment-model`
+- **Updated pages:** `concepts/agent-sensing.md` (three sensing questions, variable
+  scope table), `concepts/satisficing.md` (satisficing thresholds; why it can beat
+  greedy optimisation), `concepts/optimisation.md`, `concepts/odd-protocol.md` (design
+  concepts now linked to their own pages), `concepts/cellular-automaton.md` ($S^{S^N}$
+  rule-count generalisation), `concepts/scheduling.md`, `concepts/stochasticity.md`,
+  `entities/andres-munoz.md`, `entities/netlogo.md`, all three section indexes
+- **Not ingested:** Tutorial 4 (BehaviorSpace) materials from the same Canvas folder —
+  tutorials have not been ingested in previous weeks. Flag if that should change.
+
+## [2026-08-30] lint | after Week 5 ingest
+
+- **Lint:** 149 pages scanned, 0 issues. Report at `wiki/lint-reports/2026-08-30.md`.

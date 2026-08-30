@@ -72,3 +72,6 @@ cheaply and is tractable analytically; the choice between the two follows the qu
   fadeout mode.
 - [[w03b-reproduction-number]] — the argument for wanting stochasticity (tail events) set
   against the argument for deterministic models (the typical case, and tractability).
+- [[kennedy-2012-modelling-human-behaviour]] — the case against random draws as a stand-in
+  for unmodelled human choice: a uniform distribution asserts that all options are equally
+  likely, that agents have no preferences, no memory and no regard for consequences.

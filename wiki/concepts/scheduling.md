@@ -58,3 +58,6 @@ it to be stated explicitly rather than left to whoever writes the code.
   pseudo-code as a representation.
 - [[w02b-modelling-disease-spread]] — the SIR next-day update rule and the race-condition
   reasoning behind it.
+- [[w05a-sensing]] — competing agents as a race condition on a shared resource, and
+  randomised update order in the [[business-investment-model]] so that wealthier agents
+  gain no first-mover advantage.
