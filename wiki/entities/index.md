@@ -34,3 +34,9 @@ Index of agents, actors, and objects modelled in computational simulations.
 - [[alfred-lotka]] — co-formulator of the Lotka-Volterra predator-prey model | added: 2026-08-23
 - [[vito-volterra]] — co-formulator of the Lotka-Volterra predator-prey model | added: 2026-08-23
 - [[hiroki-sayama]] — author of the subject's complex-systems textbook | added: 2026-08-23
+- [[william-kennedy]] — author of the chapter on modelling human behaviour in ABMs | added: 2026-08-30
+- [[herbert-simon]] — coined satisficing; formulated bounded rationality | added: 2026-08-30
+- [[gerd-gigerenzer]] — developed the fast-and-frugal decision-tree framework | added: 2026-08-30
+- [[soar]] — symbolic cognitive architecture and AI problem-solving system | added: 2026-08-30
+- [[act-r]] — cognitive architecture matching low-level human performance data | added: 2026-08-30
+- [[business-investment-model]] — the Week 5 NetLogo model for sensing, adaptation and objectives | added: 2026-08-30

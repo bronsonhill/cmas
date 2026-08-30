@@ -62,3 +62,19 @@ Index of core concepts and theory in computational modelling and simulation.
 - [[wolfram-classes]] — the four-way classification of cellular automaton behaviour | added: 2026-08-23
 - [[turing-completeness]] — capable of universal computation | added: 2026-08-23
 - [[lotka-volterra-model]] — the classical continuous-time predator-prey model | added: 2026-08-23
+- [[adaptive-behaviour]] — a decision made within a run to improve state against an objective | added: 2026-08-30
+- [[objective-function]] — the criterion an agent ranks actions by: fitness, utility, cost | added: 2026-08-30
+- [[agent-learning]] — change in the behavioural rule itself, carried across runs | added: 2026-08-30
+- [[agent-prediction]] — how an agent estimates the future consequences of an action | added: 2026-08-30
+- [[agent-interaction]] — direct and indirect ways agents affect one another | added: 2026-08-30
+- [[collectives]] — agent groups with causal standing in the model | added: 2026-08-30
+- [[agent-neighbourhood]] — the set of entities an agent can sense and interact with | added: 2026-08-30
+- [[imperfect-information]] — bounded, partial and biased sensing, and why more is not always better | added: 2026-08-30
+- [[bounded-rationality]] — deciding well under limits on information, cognition and time | added: 2026-08-30
+- [[rational-choice-theory]] — the maximising model of human decision-making, and its assumptions | added: 2026-08-30
+- [[threshold-rule]] — the cheapest usable representation of a decision | added: 2026-08-30
+- [[cognitive-architecture]] — fixed machinery within which cognitive models are written | added: 2026-08-30
+- [[bdi-architecture]] — modelling agents as beliefs, desires and intentions | added: 2026-08-30
+- [[pecs-framework]] — physical, emotional, cognitive and social factors driving behaviour | added: 2026-08-30
+- [[fast-and-frugal-heuristics]] — short decision trees that match expert human decisions | added: 2026-08-30
+- [[social-influence]] — theory of mind, Latané's law of social impact, and when crowds are wise | added: 2026-08-30

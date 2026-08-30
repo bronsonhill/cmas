@@ -33,9 +33,16 @@ ODD has seven sections in three groups.
 **Design concepts**
 
 A checklist of ten agent-based modelling principles, each of which the description should
-address: basic principles, [[emergence]], adaptation, objectives, learning/prediction,
-sensing ([[agent-sensing]]), interaction, [[stochasticity]], collectives, and observation.
-Observation means the data extracted from the model — which signals you intend to measure.
+address: basic principles, [[emergence]], [[adaptive-behaviour|adaptation]],
+[[objective-function|objectives]], [[agent-learning|learning]]/[[agent-prediction|prediction]],
+sensing ([[agent-sensing]]), [[agent-interaction|interaction]], [[stochasticity]],
+[[collectives]], and observation. Observation means the data extracted from the model —
+which signals you intend to measure.
+
+The seven that concern agent behaviour are the subject of Week 5 onwards
+([[w05a-sensing]]). Two points that are easy to get wrong: **adaptation** is a
+within-run response while **learning** carries across runs, and a design concept that
+genuinely does not apply should be declared unused rather than omitted silently.
 
 **Details**
 

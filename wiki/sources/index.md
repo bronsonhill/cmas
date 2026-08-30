@@ -17,3 +17,6 @@ Index of external learning resources. Because University of Melbourne materials 
 - [[w04a-complex-systems-and-emergence]] — COMP90083 Week 4a lecture: complex systems, emergence, decentralisation, feedback, and boids | added: 2026-08-23
 - [[w04b-2d-cellular-automata]] — COMP90083 Week 4b lecture: cellular automata, Conway's Game of Life, and the Lotka-Volterra model | added: 2026-08-23
 - [[sayama-2015-modeling-and-analysis-of-complex-systems-ch1]] — Sayama's open-access textbook, Chapter 1: complex systems defined, emergence vs self-organisation, seven topical clusters | added: 2026-08-23
+- [[w05a-sensing]] — COMP90083 Week 5a lecture: ODD design concepts for agent behaviour, and sensing | added: 2026-08-30
+- [[w05b-adaptation-and-objectives]] — COMP90083 Week 5b lecture: adaptation, objective functions, satisficing, and the sensing-radius experiments | added: 2026-08-30
+- [[kennedy-2012-modelling-human-behaviour]] — Kennedy's survey of how to model a person inside an agent, from mathematical rules to cognitive architectures | added: 2026-08-30
