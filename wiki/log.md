@@ -299,3 +299,16 @@
   "less risk averse" late in a run; the plotted output, the $(1-F)^T$ mechanism and the
   Week 5a statement all say *more*. Recorded as an open thread in the w05b digest rather
   than silently corrected.
+
+## [2026-09-02] cue-cards | Week 5
+
+- **Deck:** `wiki/materials/week-05-cue-cards.md` (+ `.anki.tsv` export, 37 cards)
+- **Source pages:** `wiki/sources/w05a-sensing.md`,
+  `wiki/sources/w05b-adaptation-and-objectives.md`,
+  `wiki/sources/kennedy-2012-modelling-human-behaviour.md`, and their digests
+- **Updated pages:** `wiki/materials/index.md`
+- **Split:** 12 elaborative interrogation / 10 mechanism / 9 contrast / 6 failure-mode.
+  Weighted toward mechanism because Week 5's examinable surface is procedural
+  ($S^{S^N}$, the utility function, the tick sequence, variable scopes, Latané's law,
+  $(2r+1)^2-1$). Two failure-mode cards deliberately teach epistemic caution about the
+  lecture's own headline result, which is single-run and mechanistically unresolved.

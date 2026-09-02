@@ -22,3 +22,4 @@ Index of worked examples, notes, and derived study material.
 - [[w05a-sensing-digest]] — layered digest of the Week 5a lecture, readable instead of the original | added: 2026-09-02
 - [[w05b-adaptation-and-objectives-digest]] — layered digest of the Week 5b lecture, readable instead of the original | added: 2026-09-02
 - [[kennedy-2012-modelling-human-behaviour-digest]] — layered digest of Kennedy's chapter on modelling human behaviour, readable instead of the original | added: 2026-09-02
+- [[week-05-cue-cards]] — spaced-repetition deck for both Week 5 lectures and Kennedy (2012) (37 cards) | added: 2026-09-02
