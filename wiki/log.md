@@ -257,3 +257,58 @@
   the w04a source page to a full concept page) and linking it from
   `wiki/sources/w04a-complex-systems-and-emergence.md` and `wiki/concepts/index.md`.
   Re-run: 124 pages scanned, 0 issues. Report at `wiki/lint-reports/2026-08-23.md`.
+
+## [2026-08-30] ingest | Week 5 — modelling agent behaviour (sensing, adaptation, objectives)
+
+- **Source pages:** `wiki/sources/w05a-sensing.md`,
+  `wiki/sources/w05b-adaptation-and-objectives.md`,
+  `wiki/sources/kennedy-2012-modelling-human-behaviour.md`
+- **New concept pages:** `adaptive-behaviour`, `objective-function`, `agent-learning`,
+  `agent-prediction`, `agent-interaction`, `collectives`, `agent-neighbourhood`,
+  `imperfect-information`, `bounded-rationality`, `rational-choice-theory`,
+  `threshold-rule`, `cognitive-architecture`, `bdi-architecture`, `pecs-framework`,
+  `fast-and-frugal-heuristics`, `social-influence`
+- **New entity pages:** `william-kennedy`, `herbert-simon`, `gerd-gigerenzer`, `soar`,
+  `act-r`, `business-investment-model`
+- **Updated pages:** `concepts/agent-sensing.md` (three sensing questions, variable
+  scope table), `concepts/satisficing.md` (satisficing thresholds; why it can beat
+  greedy optimisation), `concepts/optimisation.md`, `concepts/odd-protocol.md` (design
+  concepts now linked to their own pages), `concepts/cellular-automaton.md` ($S^{S^N}$
+  rule-count generalisation), `concepts/scheduling.md`, `concepts/stochasticity.md`,
+  `entities/andres-munoz.md`, `entities/netlogo.md`, all three section indexes
+- **Not ingested:** Tutorial 4 (BehaviorSpace) materials from the same Canvas folder —
+  tutorials have not been ingested in previous weeks. Flag if that should change.
+
+## [2026-08-30] lint | after Week 5 ingest
+
+- **Lint:** 149 pages scanned, 0 issues. Report at `wiki/lint-reports/2026-08-30.md`.
+
+## [2026-09-02] digest | w05a, w05b, Kennedy (2012) — modelling agent behaviour
+
+- **Digests:** `wiki/materials/w05a-sensing-digest.md`,
+  `wiki/materials/w05b-adaptation-and-objectives-digest.md`,
+  `wiki/materials/kennedy-2012-modelling-human-behaviour-digest.md`
+- **Source pages:** `wiki/sources/w05a-sensing.md`,
+  `wiki/sources/w05b-adaptation-and-objectives.md`,
+  `wiki/sources/kennedy-2012-modelling-human-behaviour.md` (digest back-links added)
+- **Updated pages:** `wiki/materials/index.md`
+- **Note:** first digests with real recording timestamps — the VTT transcripts were
+  re-parsed keeping cue times, so every spine section carries `slides N–M` plus `MM:SS`.
+  Canvas recordings have no linkable URL, so timestamps are plain rather than clickable.
+- **Contradiction flagged:** the Week 5b recording says at `22:08` that agents become
+  "less risk averse" late in a run; the plotted output, the $(1-F)^T$ mechanism and the
+  Week 5a statement all say *more*. Recorded as an open thread in the w05b digest rather
+  than silently corrected.
+
+## [2026-09-02] cue-cards | Week 5
+
+- **Deck:** `wiki/materials/week-05-cue-cards.md` (+ `.anki.tsv` export, 37 cards)
+- **Source pages:** `wiki/sources/w05a-sensing.md`,
+  `wiki/sources/w05b-adaptation-and-objectives.md`,
+  `wiki/sources/kennedy-2012-modelling-human-behaviour.md`, and their digests
+- **Updated pages:** `wiki/materials/index.md`
+- **Split:** 12 elaborative interrogation / 10 mechanism / 9 contrast / 6 failure-mode.
+  Weighted toward mechanism because Week 5's examinable surface is procedural
+  ($S^{S^N}$, the utility function, the tick sequence, variable scopes, Latané's law,
+  $(2r+1)^2-1$). Two failure-mode cards deliberately teach epistemic caution about the
+  lecture's own headline result, which is single-run and mechanistically unresolved.

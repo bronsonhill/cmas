@@ -44,3 +44,8 @@ Installing it before the first tutorial is a stated prerequisite.
 - [[w03a-analysing-models]] — the segregation model demonstrated live from the library.
 - [[w03b-reproduction-number]] — points at the Models Library search and the HIV model's
   Info tab as a source of extension ideas.
+- [[w05a-sensing]] — the Wolf Sheep Predation library model demonstrated against the Week 4
+  cellular-automaton predator-prey version; patches used to represent non-spatial
+  alternatives in the [[business-investment-model]].
+- [[w05b-adaptation-and-objectives]] — live parameter experiments on the sensing radius
+  and the agent communication network.
