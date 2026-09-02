@@ -127,3 +127,5 @@ time left to recover.
 - [[w04b-2d-cellular-automata]] — the predator-prey CA and rule-counting recapped here
 - [[kennedy-2012-modelling-human-behaviour]] — the prescribed reading on what should go
   *inside* the adaptation rule when the agent is a person
+
+A layered digest of this lecture is available at [[materials/w05a-sensing-digest]].

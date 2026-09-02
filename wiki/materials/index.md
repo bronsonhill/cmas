@@ -19,3 +19,6 @@ Index of worked examples, notes, and derived study material.
 - [[w04b-2d-cellular-automata-digest]] — layered digest of the Week 4b lecture, readable instead of the original | added: 2026-08-23
 - [[sayama-2015-modeling-and-analysis-of-complex-systems-ch1-digest]] — layered digest of Sayama's Chapter 1, readable instead of the original | added: 2026-08-23
 - [[week-04-cue-cards]] — comprehensive spaced-repetition deck for both Week 4 lectures and Sayama Ch. 1 (28 cards) | added: 2026-08-23
+- [[w05a-sensing-digest]] — layered digest of the Week 5a lecture, readable instead of the original | added: 2026-09-02
+- [[w05b-adaptation-and-objectives-digest]] — layered digest of the Week 5b lecture, readable instead of the original | added: 2026-09-02
+- [[kennedy-2012-modelling-human-behaviour-digest]] — layered digest of Kennedy's chapter on modelling human behaviour, readable instead of the original | added: 2026-09-02

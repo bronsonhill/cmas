@@ -130,3 +130,6 @@ behaviour is difficult at best.
   model of people
 - [[odd-protocol]] — the design concepts (adaptation, objectives, learning, prediction)
   are the slots these frameworks fill
+
+A layered digest of this chapter is available at
+[[materials/kennedy-2012-modelling-human-behaviour-digest]].

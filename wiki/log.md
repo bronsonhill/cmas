@@ -282,3 +282,20 @@
 ## [2026-08-30] lint | after Week 5 ingest
 
 - **Lint:** 149 pages scanned, 0 issues. Report at `wiki/lint-reports/2026-08-30.md`.
+
+## [2026-09-02] digest | w05a, w05b, Kennedy (2012) — modelling agent behaviour
+
+- **Digests:** `wiki/materials/w05a-sensing-digest.md`,
+  `wiki/materials/w05b-adaptation-and-objectives-digest.md`,
+  `wiki/materials/kennedy-2012-modelling-human-behaviour-digest.md`
+- **Source pages:** `wiki/sources/w05a-sensing.md`,
+  `wiki/sources/w05b-adaptation-and-objectives.md`,
+  `wiki/sources/kennedy-2012-modelling-human-behaviour.md` (digest back-links added)
+- **Updated pages:** `wiki/materials/index.md`
+- **Note:** first digests with real recording timestamps — the VTT transcripts were
+  re-parsed keeping cue times, so every spine section carries `slides N–M` plus `MM:SS`.
+  Canvas recordings have no linkable URL, so timestamps are plain rather than clickable.
+- **Contradiction flagged:** the Week 5b recording says at `22:08` that agents become
+  "less risk averse" late in a run; the plotted output, the $(1-F)^T$ mechanism and the
+  Week 5a statement all say *more*. Recorded as an open thread in the w05b digest rather
+  than silently corrected.

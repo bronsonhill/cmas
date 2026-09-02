@@ -119,3 +119,6 @@ heterogeneous risk appetite enters an ABM.
   replicates
 - [[kennedy-2012-modelling-human-behaviour]] — what to put in an objective function when
   the agent is meant to be a person
+
+A layered digest of this lecture is available at
+[[materials/w05b-adaptation-and-objectives-digest]].
